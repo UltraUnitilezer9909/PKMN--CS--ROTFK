@@ -1,0 +1,84 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+# Crestelia City | Middle Region (2) - Crestelia City | Crimson Region (7)
+2,West,0,7,East,0
+# Crestelia City | Teal Region (3) - Crestelia City | Middle Region (2)
+3,North,80,2,South,0
+# Crestelia City | Magenta Region  (97) - Crestelia City | Middle Region (2)
+97,North,0,2,South,0
+# Cresetlia City | Navy Region (8) - Crestelia City | Middle Region (2)
+8,East,80,2,West,0
+# Crestelia City | Pink Region  (95) - Crestelia City | Middle Region (2)
+95,West,0,2,East,80
+# Cresetlia City | Cyan Region (15) - Crestelia City | Middle Region (2)
+15,South,0,2,North,0
+# Cresetlia City | Amber Region (16) - Crestelia City | Middle Region (2)
+16,West,80,2,East,0
+# Cresetlia City | Lime Region (17) - Crestelia City | Middle Region (2)
+17,West,0,2,East,0
+# Crestelia City | Teal Region (3) - Crestelia City | Crimson Region (7)
+3,North,0,7,South,0
+# Crestelia City | Magenta Region  (97) - Crestelia City | Teal Region (3)
+97,West,0,3,East,0
+# Cresetlia City | Cyan Region (15) - Crestelia City | Teal Region (3)
+15,West,160,3,East,0
+# Cresetlia City | Lime Region (17) - Crestelia City | Teal Region (3)
+17,South,0,3,North,160
+# Crestelia City | Magenta Region  (97) - Crestelia City | Crimson Region (7)
+97,West,0,7,East,80
+# Cresetlia City | Navy Region (8) - Crestelia City | Crimson Region (7)
+8,South,0,7,North,0
+# Crestelia City | Pink Region  (95) - Crestelia City | Crimson Region (7)
+95,North,0,7,South,160
+# Cresetlia City | Cyan Region (15) - Crestelia City | Crimson Region (7)
+15,West,80,7,East,0
+# Cresetlia City | Amber Region (16) - Crestelia City | Crimson Region (7)
+16,South,0,7,North,160
+# Cresetlia City | Navy Region (8) - Crestelia City | Magenta Region  (97)
+8,East,160,97,West,0
+# Cresetlia City | Cyan Region (15) - Cresetlia City | Navy Region (8)
+15,West,0,8,East,0
+# Cresetlia City | Lime Region (17) - Cresetlia City | Navy Region (8)
+17,North,0,8,South,160
+# Cresetlia City | Cyan Region (15) - Crestelia City | Pink Region  (95)
+15,East,160,95,West,0
+# Cresetlia City | Amber Region (16) - Cresetlia City | Cyan Region (15)
+16,West,0,15,East,0
+# Cresetlia City | Lime Region (17) - Cresetlia City | Cyan Region (15)
+17,West,0,15,East,80
+# Cresetlia City | Amber Region (16) - Crestelia City | Magenta Region  (97)
+16,West,160,97,East,0
+# Cresetlia City | Lime Region (17) - Cresetlia City | Amber Region (16)
+17,North,0,16,South,0
+# Cresetlia City | Lime Region (17) - Crestelia City | Magenta Region  (97)
+17,West,80,97,East,0
+# Cresetlia City | Lime Region (17) - Crestelia City | Pink Region  (95)
+17,South,0,95,North,0
+# Crestelia City | Pink Region  (95) - Crestelia City | Magenta Region  (97)
+95,West,0,97,East,0
+# Castlelize Empire | Entrance Garden (27) - Castlelize Empire | Front Garden (36)
+27,West,0,36,East,80
+# Castlelize Empire | Front Garden (29) - Castlelize Empire | Front Garden (36)
+29,West,0,36,East,0
+# Castlelize Empire | Entrance Garden (41) - Castlelize Empire | Front Garden (36)
+41,North,0,36,South,0
+# Castlelize Empire | Entrance Garden (40) - Castlelize Empire | Front Garden (36)
+40,North,0,36,South,120
+# Castlelize Empire | Front Garden (29) - Castlelize Empire | Entrance Garden (27)
+29,South,0,27,North,0
+# Castlelize Empire | Front Garden (39) - Castlelize Empire | Entrance Garden (27)
+39,West,80,27,East,0
+# Castlelize Empire | Entrance Garden (41) - Castlelize Empire | Entrance Garden (27)
+41,East,0,27,West,0
+# Castlelize Empire | Entrance Garden (40) - Castlelize Empire | Entrance Garden (27)
+40,West,0,27,East,0
+# Castlelize Empire | Front Garden (39) - Castlelize Empire | Front Garden (29)
+39,West,0,29,East,0
+# Castlelize Empire | Entrance Garden (41) - Castlelize Empire | Front Garden (29)
+41,North,60,29,South,0
+# Castlelize Empire | Entrance Garden (40) - Castlelize Empire | Front Garden (29)
+40,West,0,29,East,80
+# Castlelize Empire | Entrance Garden (41) - Castlelize Empire | Front Garden (39)
+41,North,120,39,South,0
+# Castlelize Empire | Entrance Garden (40) - Castlelize Empire | Front Garden (39)
+40,North,0,39,South,0

@@ -1,0 +1,46 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+[0]
+Filename = mapRegion0.png
+Name = "Crestelia Region (sector 1)"
+Point = 14,7,"Castlelize Castle","The CS Chamber",,,,
+Point = 16,8,"Crestelia City | Pink Region ",,,,,
+Point = 14,10,"Crestelia City | Magenta Region ",,,,,
+Point = 12,8,"Crestelia City | Teal Region",,,,,
+Point = 10,6,"Crestelia City | Crimson Region",,,,,
+Point = 12,5,"Cresetlia City | Navy Region",,,,,
+Point = 14,3,"Cresetlia City | Cyan Region",,,,,
+Point = 16,5,"Cresetlia City | Amber Region",,,,,
+Point = 18,7,"Cresetlia City | Lime Region",,,,,
+#-------------------------------
+[1]
+Filename = mapRegion1.png
+Name = Crestelia Region (sector 2)
+#-------------------------------
+[2]
+Filename = mapRegion2.png
+Name = Crestelia Region (sector 3)
+#-------------------------------
+[3]
+Filename = mapRegion3.png
+Name = Crestelia Region (sector 4)
+#-------------------------------
+[4]
+Filename = mapRegion4.png
+Name = Crestelia Region (sector 5)
+#-------------------------------
+[5]
+Filename = mapRegion5.png
+Name = Crestelia Region (sector 6)
+#-------------------------------
+[6]
+Filename = mapRegion6.png
+Name = Crestelia Region (sector 7)
+#-------------------------------
+[7]
+Filename = mapRegion7.png
+Name = Crestelia Region (sector 8)
+#-------------------------------
+[8]
+Filename = mapRegion8.png
+Name = Crestelia Region (sector 9)
+#-------------------------------

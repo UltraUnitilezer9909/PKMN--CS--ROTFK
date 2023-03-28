@@ -1,0 +1,388 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[000]
+Home = 3,7,5,0
+WildBattleBGM = BA - PKMN battler! 1.mp3
+TrainerBattleBGM = BA - PKMN battler! 2.mp3
+WildVictoryME = C - Crystal Victory.mp3
+TrainerVictoryME = C - Crystal Victory.mp3
+SurfBGM = BG - Surf.mp3
+BicycleBGM = BG - Aquatic temple.mp3
+PlayerA = ZZZ_LEAF,ZZZ_LEAF.png,ZZZ_LEAF.png,ZZZ_LEAF_w.png,ZZZ_LEAF.png,ZZZ_LEAF_w.png,ZZZ_LEAF.png,ZZZ_LEAF.png
+PlayerB = ZZZ_LEAFIA,ZZZ_LEAFIA.png,ZZZ_LEAFIA.png,ZZZ_LEAFIA_w.png,ZZZ_LEAFIA.png,ZZZ_LEAFIA_w.png,ZZZ_LEAFIA.png,ZZZ_LEAFIA.png
+PlayerC = ZZZ_VAPOR,ZZZ_VAPOR.png,ZZZ_VAPOR.png,ZZZ_VAPOR_w.png,ZZZ_VAPOR.png,ZZZ_VAPOR_w.png,ZZZ_VAPOR.png,ZZZ_VAPOR.png
+PlayerD = ZZZ_VAPORIA,ZZZ_VAPORIA.png,ZZZ_VAPORIA.png,ZZZ_VAPORIA_w.png,ZZZ_VAPORIA.png,ZZZ_VAPORIA_w.png,ZZZ_VAPORIA.png,ZZZ_VAPORIA.png
+PlayerE = ZZZ_FLARE,ZZZ_FLARE.png,ZZZ_FLARE.png,ZZZ_FLARE_w.png,ZZZ_FLARE.png,ZZZ_FLARE_w.png,ZZZ_FLARE.png,ZZZ_FLARE.png
+PlayerF = ZZZ_FLARIA,ZZZ_FLARIA.png,ZZZ_FLARIA.png,ZZZ_FLARIA_w.png,ZZZ_FLARIA.png,ZZZ_FLARIA_w.png,ZZZ_FLARIA.png,ZZZ_FLARIA.png
+#-------------------------------
+[001]
+# Start
+#-------------------------------
+[002]
+# Crestelia City | Middle Region
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Snow,100
+MapPosition = 0,14,7
+SnapEdges = false
+Dungeon = false
+BattleBack = field
+Environment = Sky
+#-------------------------------
+[003]
+# Crestelia City | Teal Region
+Outdoor = true
+ShowArea = true
+HealingSpot = 3,45,11
+Weather = Snow,100
+MapPosition = 0,12,8
+Environment = Sky
+#-------------------------------
+[004]
+# PKMN stationary center 
+ShowArea = true
+#-------------------------------
+[005]
+# Common Maps
+#-------------------------------
+[006]
+# Crestelia City | Teal Region 
+#-------------------------------
+[007]
+# Crestelia City | Crimson Region
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Snow,100
+MapPosition = 0,10,6
+Environment = Sky
+#-------------------------------
+[008]
+# Cresetlia City | Navy Region
+Outdoor = true
+ShowArea = true
+Weather = Snow,100
+MapPosition = 0,12,4
+Environment = Sky
+#-------------------------------
+[009]
+# Crestelia City | Crimson Region
+Outdoor = false
+ShowArea = true
+Bicycle = true
+HealingSpot = 8,17,11
+MapPosition = 0,14,10
+DarkMap = true
+Environment = Cave
+#-------------------------------
+[010]
+# Crestelia City | Crimson Region
+Outdoor = false
+ShowArea = true
+DarkMap = true
+BattleBack = indoor3
+Environment = Rock
+#-------------------------------
+[011]
+# Crestelia City | Crimson Region
+#-------------------------------
+[012]
+# Crestelia City | Crimson Region
+DarkMap = true
+#-------------------------------
+[013]
+# Crestelia City | Crimson Region
+DarkMap = true
+#-------------------------------
+[014]
+# Tournament Registration Building
+#-------------------------------
+[015]
+# Cresetlia City | Cyan Region
+Outdoor = true
+ShowArea = true
+Weather = Snow,100
+MapPosition = 0,14,3
+Environment = Sky
+#-------------------------------
+[016]
+# Cresetlia City | Amber Region
+Outdoor = true
+ShowArea = true
+Weather = Snow,100
+MapPosition = 0,16,5
+Environment = Sky
+#-------------------------------
+[017]
+# Cresetlia City | Lime Region
+Outdoor = true
+ShowArea = true
+Weather = Snow,100
+MapPosition = 0,18,6
+Environment = Sky
+#-------------------------------
+[018]
+# Deltaverse
+#-------------------------------
+[019]
+# Selection 
+#-------------------------------
+[020]
+# PKMN: CRYSTAL STONE
+#-------------------------------
+[021]
+# Crestelia City | Empirerial Bridge
+#-------------------------------
+[023]
+# Atmosphere 
+#-------------------------------
+[024]
+# Crestelia City
+#-------------------------------
+[025]
+# Empirerial Bridge 
+#-------------------------------
+[026]
+# Empire -  castlelize
+Outdoor = true
+ShowArea = true
+Weather = Blizzard,100
+Environment = Sky
+#-------------------------------
+[027]
+# Empire - castlelize | Entrance Garden
+Outdoor = true
+ShowArea = true
+Weather = Blizzard,100
+MapPosition = 0,14,7
+Environment = Sky
+#-------------------------------
+[028]
+# Crestelia City | Empirerial Bridge Gateway 
+#-------------------------------
+[029]
+# Empire - castlelize | Front Garden
+Outdoor = true
+ShowArea = true
+Weather = Blizzard,100
+MapPosition = 0,14,7
+Environment = Sky
+#-------------------------------
+[030]
+# [TEST MAP]
+Outdoor = true
+ShowArea = true
+SnapEdges = true
+#-------------------------------
+[031]
+# [WELCOME](read the events)
+#-------------------------------
+[034]
+# Empire - castlelize | Main Entrance 
+#-------------------------------
+[035]
+# Empire - castlelize | Front Garden
+Outdoor = true
+ShowArea = true
+SnapEdges = true
+Environment = Sky
+#-------------------------------
+[036]
+# Empire - castlelize | Front Garden
+Outdoor = true
+ShowArea = true
+Weather = Blizzard,100
+MapPosition = 0,14,7
+Environment = Sky
+#-------------------------------
+[037]
+# Front Castle
+#-------------------------------
+[038]
+# Outside Palace
+#-------------------------------
+[039]
+# Empire - castlelize | Front Garden
+Outdoor = true
+ShowArea = true
+Weather = Blizzard,100
+MapPosition = 0,14,7
+Environment = Sky
+#-------------------------------
+[040]
+# Empire - castlelize | Entrance Garden
+Outdoor = true
+ShowArea = true
+Weather = Blizzard,100
+MapPosition = 0,14,7
+Environment = Sky
+#-------------------------------
+[041]
+# Empire - castlelize | Entrance Garden
+Outdoor = true
+ShowArea = true
+Weather = Blizzard,100
+MapPosition = 0,14,7
+Environment = Sky
+#-------------------------------
+[043]
+# Theta Space Station Hall TRM
+Outdoor = false
+ShowArea = true
+#-------------------------------
+[044]
+# Empire -  castlelize | Castlelize Palace 
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Snow,100
+MapPosition = 0,14,6
+SnapEdges = true
+Environment = Sky
+#-------------------------------
+[045]
+# Empire - castlelize | Palace's Lobby
+#-------------------------------
+[046]
+# Empire - castlelize | Palace's Cafeteria 
+#-------------------------------
+[047]
+# Empire - castlelize | Palace's Library 
+#-------------------------------
+[048]
+# Theta Space Station Hall TRL
+ShowArea = true
+#-------------------------------
+[049]
+# Empire - castlelize | Hall room
+#-------------------------------
+[050]
+#-------------------------------
+[051]
+#-------------------------------
+[052]
+#-------------------------------
+[053]
+#-------------------------------
+[054]
+#-------------------------------
+[055]
+#-------------------------------
+[056]
+#-------------------------------
+[057]
+#-------------------------------
+[058]
+#-------------------------------
+[059]
+#-------------------------------
+[060]
+#-------------------------------
+[061]
+#-------------------------------
+[062]
+#-------------------------------
+[063]
+#-------------------------------
+[064]
+#-------------------------------
+[065]
+#-------------------------------
+[066]
+#-------------------------------
+[067]
+#-------------------------------
+[068]
+#-------------------------------
+[069]
+#-------------------------------
+[070]
+#-------------------------------
+[071]
+#-------------------------------
+[072]
+#-------------------------------
+[073]
+#-------------------------------
+[074]
+#-------------------------------
+[075]
+#-------------------------------
+[076]
+# Theta Space Station Hall TRR
+Outdoor = false
+ShowArea = true
+#-------------------------------
+[078]
+# Theta Library Room
+ShowArea = true
+#-------------------------------
+[081]
+# Theta Registration Room
+ShowArea = true
+#-------------------------------
+[082]
+# Theta Cafeteria Room
+ShowArea = true
+#-------------------------------
+[086]
+#-------------------------------
+[088]
+#-------------------------------
+[090]
+#-------------------------------
+[095]
+# Crestelia City | Pink Region 
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Snow,100
+MapPosition = 0,16,8
+Dungeon = false
+Environment = Sky
+#-------------------------------
+[097]
+# Crestelia City | Magenta Region 
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Snow,100
+MapPosition = 0,14,9
+Dungeon = false
+Environment = Sky
+#-------------------------------
+[099]
+# Theta Main Room
+ShowArea = true
+#-------------------------------
+[100]
+# Theta Space Station Hall BRM
+ShowArea = true
+#-------------------------------
+[101]
+# Theta Space Station Hall BRR
+ShowArea = true
+#-------------------------------
+[102]
+# Theta Space Station Hall BRL
+ShowArea = true
+#-------------------------------
+[104]
+# Theta Reactor Hall
+ShowArea = true
+#-------------------------------
+[105]
+# Theta Docking Bay
+ShowArea = true
+#-------------------------------
+[106]
+# Theta Capital View
+ShowArea = true
+#-------------------------------
+[107]
+# Theta Docking Bay | Landing Zone
+ShowArea = true
+#-------------------------------
+[108]
+# Crestelia City | Magenta Region 

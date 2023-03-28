@@ -1,0 +1,37 @@
+#Fakemons and Fakeform
+
+#...line means, all pkmn that is connected to the currentpkmn
+
+Fakeform:
+    Factional/Regional:    
+        Crestelian: 
+            - fennekin line
+            
+        Xian:
+            - zorua line
+            - duraludon
+            - enternatus
+        Glimsiumian:
+            - primarina line
+        Crimsium:
+            - lycanroc line
+            - arcanine line
+        Galaxian:
+            - ninetales line
+            - zorua line
+        Skylias:
+            - meowscarada
+        Alphian:
+            -
+        Gammanian:
+            -
+        Thetaian:
+            - duraludon line
+            - decidueye line
+    State:
+        Ruinias(steel type):
+        Scavagian:
+        Decimate:
+            - duraludon line
+        New generation: 
+            - eevee line

@@ -1,0 +1,19 @@
+# this a the credits, basiccaly where the artist are put and stuff, rigth?
+
+credits:
+    Music(BGM,BGC,ME,SE)
+        - glitchxcity
+        - vetrom
+        -
+        -
+    Plugins(plugins folder and "above main" script section[on RPGXP])
+        - Luka s.j.
+        - Marunu
+        - TechSkylanders
+        - KleinStudio
+        -
+        -
+    Others(unspecified like: grapics, etc)
+        - Ekat
+        -
+        -

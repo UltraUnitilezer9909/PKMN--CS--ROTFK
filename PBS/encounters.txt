@@ -1,0 +1,5 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[030,1] # [TEST MAP]
+Land,21
+    120,BULBASAUR,5

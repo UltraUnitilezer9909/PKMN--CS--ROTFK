@@ -1,0 +1,48 @@
+Name         = Item Crafting UI
+Version      = 1.2.1
+Link         = https://reliccastle.com/resources/632/
+Credits      = ThatWelshOne_
+
+#=======================================================================
+#How to use
+#=======================================================================
+#In an event, you need to call "bItemCrafter(stock, speech1, speech2)".
+#Here, stock is an array that contains two elements. First, the symbolic name of the item you wish to craft (e.g. :FULLRESTORE). Second, an array of ingredients (symbolic names) and their costs. I'll give an example of this shortly.
+#speech1 and speech2 are text that display on screen when you begin and finish crafting, respectively. These are optional arguments. By default, speech1 is "Let's get started!" and speech2 is "Come back soon!".
+
+#Here's a simple example of how to set up the event:
+
+#Ruby:
+#pbItemCrafter([
+#[:FULLRESTORE,[:POTION,5,:ORANBERRY,10,:REVIVE,1,:LUMBERRY,2,:FULLHEAL,1,:XSPEED,3]]
+#])
+#In this example, we want to craft a Full Restore. The ingredients for 1 Full Restore are 5 Potions, 10 Oran Berries, 1 Revive, 2 Lum Berries, 1 Full Heal and 3 X Speeds. The ingredients array must be formatted in this way: ingredient_1, cost_1, ingredient_2, cost_2, etc.
+
+
+#You can specify up to 6 ingredients in any given recipe and whatever costs you deem appropriate.
+
+#Here's an example of more than one item being offered by the item crafter:
+#Ruby:
+#pbItemCrafter([
+#[:FULLRESTORE,[:POTION,5,:ORANBERRY,10,:REVIVE,1,:LUMBERRY,2,:FULLHEAL,1,:XSPEED,3]],
+#[:TM01,[:YELLOWAPRICORN,5,:POKEBALL,10,:REPEL,22]],
+#[:LAGGINGTAIL,[:HARDSTONE,1,:IRONBALL,1]],
+#[:SITRUSBERRY,[:POTION,2]]
+#])
+
+#There are 4 possible items to craft here, all with varying recipe lengths and costs. There's no limit to the number of items to be crafted, only on the number of ingredients (at the moment).
+
+#Here's a final example where you can change the text that appears when beginning/ending item crafting:
+#Ruby:
+#pbItemCrafter([
+#[:FULLRESTORE,[:POTION,5,:ORANBERRY,10,:REVIVE,1,:LUMBERRY,2,:FULLHEAL,1,:XSPEED,3]],
+#[:TM01,[:YELLOWAPRICORN,5,:POKEBALL,10,:REPEL,22]],
+#[:LAGGINGTAIL,[:HARDSTONE,1,:IRONBALL,1]],
+#[:SITRUSBERRY,[:POTION,2]]
+#], speech1="I heard a rumour...", speech2="...that you installed this script.")
+
+#Controls
+#Press the left/right arrows to move between recipes.
+#Press the up/down arrows to increase/decrease the quantity you wish to craft.
+#Press C/Space/Enter to begin crafting. In v19+, this is now whatever you have mapped to "Use".
+#Press X/Esc to close the UI. In v19+, this is now whatever you have mapped to "Back".

@@ -1,0 +1,4313 @@
+
+=================
+
+[2022-09-07 07:22:29 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Filename is nil (missing graphic).
+
+Backtrace:
+086:AnimatedBitmap:6:in `initialize'
+089:Messages:229:in `new'
+089:Messages:229:in `initialize'
+376:Name Windows by  Mr. Gela:281:in `new'
+376:Name Windows by  Mr. Gela:281:in `block in pbMessageDisplay'
+376:Name Windows by  Mr. Gela:266:in `each'
+376:Name Windows by  Mr. Gela:266:in `pbMessageDisplay'
+089:Messages:723:in `pbMessage'
+034:Interpreter_Commands:204:in `command_101'
+034:Interpreter_Commands:21:in `execute_command'
+
+=================
+
+[2022-09-07 19:47:03 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 12 (coords 40,25), map 108 (Crestelia City | Magenta Region ):
+Exception: NoMethodError
+Message: undefined method `tone=' for nil:NilClass
+
+***Full script:
+pbWildBattle(:GROUDON, 30)
+
+Backtrace:
+[Elite Battle: DX] Entry Animations Wild.rb:352:in `minorLegendary'
+(eval):1:in `block in initialize'
+[Elite Battle: DX] Entry Animations Wild.rb:20:in `eval'
+[Elite Battle: DX] Entry Animations Wild.rb:20:in `block in initialize'
+[Elite Battle: DX] Entry Animations Wild.rb:19:in `each'
+[Elite Battle: DX] Entry Animations Wild.rb:19:in `initialize'
+[Elite Battle: DX] Entry Animations Main.rb:59:in `new'
+[Elite Battle: DX] Entry Animations Main.rb:59:in `pbBattleAnimation'
+231:Overworld_BattleStarting:287:in `pbWildBattleCore'
+231:Overworld_BattleStarting:321:in `pbWildBattle'
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:352:in `command_111'
+034:Interpreter_Commands:29:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+032:Scene_Map:157:in `block in update'
+032:Scene_Map:155:in `loop'
+032:Scene_Map:155:in `update'
+
+=================
+
+[2022-09-07 19:50:23 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 12 (coords 40,25), map 108 (Crestelia City | Magenta Region ):
+Exception: NoMethodError
+Message: undefined method `tone=' for nil:NilClass
+
+***Full script:
+pbWildBattle(:GROUDON, 30)
+
+Backtrace:
+[Elite Battle: DX] Entry Animations Wild.rb:352:in `minorLegendary'
+(eval):1:in `block in initialize'
+[Elite Battle: DX] Entry Animations Wild.rb:20:in `eval'
+[Elite Battle: DX] Entry Animations Wild.rb:20:in `block in initialize'
+[Elite Battle: DX] Entry Animations Wild.rb:19:in `each'
+[Elite Battle: DX] Entry Animations Wild.rb:19:in `initialize'
+[Elite Battle: DX] Entry Animations Main.rb:59:in `new'
+[Elite Battle: DX] Entry Animations Main.rb:59:in `pbBattleAnimation'
+231:Overworld_BattleStarting:287:in `pbWildBattleCore'
+231:Overworld_BattleStarting:321:in `pbWildBattle'
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:352:in `command_111'
+034:Interpreter_Commands:29:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+032:Scene_Map:157:in `block in update'
+032:Scene_Map:155:in `loop'
+032:Scene_Map:155:in `update'
+
+=================
+
+[2022-09-08 13:39:24 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+
+Exception: RuntimeError
+Message: Bad line syntax (expected syntax like XXX=YYY)
+File Plugins/Item Crafting UI/meta.txt, line 6
+=======================================================================
+
+
+
+Backtrace:
+008:PluginManager:487:in `block in readMeta'
+369:Compiler:233:in `block (2 levels) in pbCompilerEachPreppedLine'
+369:Compiler:225:in `each_line'
+369:Compiler:225:in `block in pbCompilerEachPreppedLine'
+369:Compiler:222:in `open'
+369:Compiler:222:in `pbCompilerEachPreppedLine'
+008:PluginManager:484:in `readMeta'
+008:PluginManager:611:in `block in getPluginOrder'
+008:PluginManager:607:in `each'
+008:PluginManager:607:in `getPluginOrder'
+
+=================
+
+[2022-09-08 13:42:09 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+
+Exception: RuntimeError
+Message: Bad line syntax (expected syntax like XXX=YYY)
+File Plugins/Item Crafting UI/meta.txt, line 25
+Ruby:
+
+
+
+Backtrace:
+008:PluginManager:487:in `block in readMeta'
+369:Compiler:233:in `block (2 levels) in pbCompilerEachPreppedLine'
+369:Compiler:225:in `each_line'
+369:Compiler:225:in `block in pbCompilerEachPreppedLine'
+369:Compiler:222:in `open'
+369:Compiler:222:in `pbCompilerEachPreppedLine'
+008:PluginManager:484:in `readMeta'
+008:PluginManager:611:in `block in getPluginOrder'
+008:PluginManager:607:in `each'
+008:PluginManager:607:in `getPluginOrder'
+
+=================
+
+[2022-09-08 14:08:07 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+
+Error in Plugin [Item Crafting UI]:
+SyntaxError occurred.
+Line 001: Syntax error, unexpected `end', expecting end-of-input: [Item Crafting UI] 001_UI_ItemCrafting.rb
+
+Backtrace:
+008:PluginManager:705:in `eval'
+008:PluginManager:705:in `block (2 levels) in runPlugins'
+008:PluginManager:695:in `each'
+008:PluginManager:695:in `block in runPlugins'
+008:PluginManager:689:in `each'
+008:PluginManager:689:in `runPlugins'
+378:Main:28:in `mainFunctionDebug'
+378:Main:18:in `block in mainFunction'
+014:Errors:70:in `pbCriticalCode'
+378:Main:18:in `mainFunction'
+
+=================
+
+[2022-09-08 14:11:34 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+
+Error in Plugin [Item Crafting UI]:
+SyntaxError occurred.
+Line 001: Syntax error, unexpected `end', expecting end-of-input: [Item Crafting UI] 001_UI_ItemCrafting.rb
+
+Backtrace:
+008:PluginManager:705:in `eval'
+008:PluginManager:705:in `block (2 levels) in runPlugins'
+008:PluginManager:695:in `each'
+008:PluginManager:695:in `block in runPlugins'
+008:PluginManager:689:in `each'
+008:PluginManager:689:in `runPlugins'
+378:Main:28:in `mainFunctionDebug'
+378:Main:18:in `block in mainFunction'
+014:Errors:70:in `pbCriticalCode'
+378:Main:18:in `mainFunction'
+
+=================
+
+[2022-09-08 14:15:19 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+
+Error in Plugin [Item Crafting UI]:
+SyntaxError occurred.
+Line 001: _intl("l...
+    ^~~~~~~~~: [Item Crafting UI] 001_UI_ItemCrafting.rb
+
+Backtrace:
+008:PluginManager:705:in `eval'
+008:PluginManager:705:in `block (2 levels) in runPlugins'
+008:PluginManager:695:in `each'
+008:PluginManager:695:in `block in runPlugins'
+008:PluginManager:689:in `each'
+008:PluginManager:689:in `runPlugins'
+378:Main:28:in `mainFunctionDebug'
+378:Main:18:in `block in mainFunction'
+014:Errors:70:in `pbCriticalCode'
+378:Main:18:in `mainFunction'
+
+=================
+
+[2022-09-09 09:56:51 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 17 (coords 8,46), map 108 (Crestelia City | Magenta Region ):
+Exception: SyntaxError
+Message: (eval):3: syntax error, unexpected [, expecting ']'
+[:ANTIDOTE,[:ORANBERRY,3,:PINK...
+^
+(eval):4: syntax error, unexpected ']', expecting end-of-input
+
+***Full script:
+pbItemCrafter([
+[:POTION,[:ORANBERRY,2]]
+[:ANTIDOTE,[:ORANBERRY,3,:PINKAPRICORN,1,]]
+])
+
+
+Backtrace:
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+033:Interpreter:100:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+
+=================
+
+[2022-09-09 17:59:51 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 24 (coords 8,47), map 108 (Crestelia City | Magenta Region ):
+Exception: SyntaxError
+Message: (eval):1: syntax error, unexpected constant, expecting `do' or '{' or '('
+NOPE, NOT HAPPENING 
+          ^~~~~~~~~
+
+
+***Full script:
+NOPE, NOT HAPPENING 
+
+
+Backtrace:
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+032:Scene_Map:157:in `block in update'
+032:Scene_Map:155:in `loop'
+032:Scene_Map:155:in `update'
+
+=================
+
+[2022-09-10 15:48:34 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 24 (coords 8,47), map 108 (Crestelia City | Magenta Region ):
+Exception: SyntaxError
+Message: (eval):1: syntax error, unexpected constant, expecting `do' or '{' or '('
+NOPE, NOT HAPPENING 
+          ^~~~~~~~~
+
+
+***Full script:
+NOPE, NOT HAPPENING 
+
+
+Backtrace:
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+032:Scene_Map:157:in `block in update'
+032:Scene_Map:155:in `loop'
+032:Scene_Map:155:in `update'
+
+=================
+
+[2022-09-11 11:06:36 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NoMethodError
+Message: undefined method `each' for nil:NilClass
+
+Backtrace:
+[Pokedex BW Style] BW PokedexEntry.rb:403:in `block in drawPageArea'
+133:Encounter:53:in `block in each_of_version'
+133:Encounter:45:in `block in each'
+133:Encounter:45:in `each'
+133:Encounter:45:in `each'
+133:Encounter:52:in `each_of_version'
+[Pokedex BW Style] BW PokedexEntry.rb:397:in `drawPageArea'
+[Pokedex BW Style] BW PokedexEntry.rb:217:in `drawPage'
+[ZUD Compatibilities] BW Pokedex.rb:152:in `drawPage'
+[ZUD Compatibilities] BW Pokedex.rb:414:in `block in pbScene'
+
+=================
+
+[2022-09-12 18:14:05 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 46 (coords 31,60), map 108 (Crestelia City | Magenta Region ):
+Exception: ArgumentError
+Message: wrong number of arguments (given 1, expected 2..5)
+
+***Full script:
+EliteBattle.assign_bgm("BA - Final battle with Elumiratuz.ogg", :EEVEE)
+pbWildBattle(:EEVEE)
+
+
+Backtrace:
+231:Overworld_BattleStarting:309:in `pbWildBattle'
+[Elite Battle: DX] EBDX Randomizer.rb:274:in `pbWildBattle'
+[Elite Battle: DX] Class Overrides.rb:66:in `pbWildBattle'
+(eval):2:in `execute_script'
+033:Interpreter:140:in `eval'
+033:Interpreter:140:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+032:Scene_Map:157:in `block in update'
+032:Scene_Map:155:in `loop'
+032:Scene_Map:155:in `update'
+
+=================
+
+[2022-09-14 19:29:58 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+
+Error in Plugin [Type Match-up UI]:
+NameError occurred.
+Class: undefined local variable or method `t' for SpeciesTypeMatch_Scene
+
+Backtrace:
+[Type Match-up UI] 002_SpeciesTypeMatch_UI.rb:191:in `<class:SpeciesTypeMatch_Scene>'
+[Type Match-up UI] 002_SpeciesTypeMatch_UI.rb:1:in `<main>'
+008:PluginManager:705:in `eval'
+008:PluginManager:705:in `block (2 levels) in runPlugins'
+008:PluginManager:695:in `each'
+008:PluginManager:695:in `block in runPlugins'
+008:PluginManager:689:in `each'
+008:PluginManager:689:in `runPlugins'
+378:Main:28:in `mainFunctionDebug'
+378:Main:18:in `block in mainFunction'
+
+=================
+
+[2022-09-15 08:04:10 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NameError
+Message: uninitialized constant SingleTypeMatch_Scene
+
+Backtrace:
+[Modular Menu] Config.rb:125:in `block in <main>'
+[Modular Menu] Script.rb:62:in `run'
+[Modular Menu] Script.rb:360:in `block in pbStartPokemonMenu'
+[Modular Menu] Script.rb:343:in `loop'
+[Modular Menu] Script.rb:343:in `pbStartPokemonMenu'
+377:Zoom screen by  TechSkylander:111:in `call_menu'
+032:Scene_Map:199:in `update'
+032:Scene_Map:220:in `block in main'
+032:Scene_Map:217:in `loop'
+032:Scene_Map:217:in `main'
+
+=================
+
+[2022-09-15 08:21:18 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NoMethodError
+Message: undefined method `each' for nil:NilClass
+
+Backtrace:
+[Pokedex BW Style] BW PokedexEntry.rb:403:in `block in drawPageArea'
+133:Encounter:53:in `block in each_of_version'
+133:Encounter:45:in `block in each'
+133:Encounter:45:in `each'
+133:Encounter:45:in `each'
+133:Encounter:52:in `each_of_version'
+[Pokedex BW Style] BW PokedexEntry.rb:397:in `drawPageArea'
+[Pokedex BW Style] BW PokedexEntry.rb:217:in `drawPage'
+[ZUD Compatibilities] BW Pokedex.rb:152:in `drawPage'
+[ZUD Compatibilities] BW Pokedex.rb:414:in `block in pbScene'
+
+=================
+
+[2022-09-15 10:11:42 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+
+Exception: RuntimeError
+Message: Dex list number 0 has species PIDGEY listed twice.
+File PBS/regionaldexes.txt, line 213
+[1]
+
+
+
+Backtrace:
+370:Compiler_CompilePBS:834:in `block (2 levels) in compile_regional_dexes'
+370:Compiler_CompilePBS:832:in `each'
+370:Compiler_CompilePBS:832:in `each_with_index'
+370:Compiler_CompilePBS:832:in `block in compile_regional_dexes'
+370:Compiler_CompilePBS:829:in `each'
+370:Compiler_CompilePBS:829:in `each_with_index'
+370:Compiler_CompilePBS:829:in `compile_regional_dexes'
+369:Compiler:718:in `compile_all'
+[Elite Battle: DX] EBDX Compiler.rb:98:in `compile_all'
+369:Compiler:841:in `main'
+
+=================
+
+[2022-09-15 10:43:50 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NoMethodError
+Message: undefined method `[]' for nil:NilClass
+
+Backtrace:
+[Pokedex BW Style] BW PokedexEntry.rb:29:in `pbStartScene'
+[ZUD Compatibilities] BW Pokedex.rb:20:in `pbStartScene'
+[Pokedex BW Style] BW PokedexEntry.rb:650:in `pbStartScreen'
+[Pokedex BW Style] BW PokedexMain.rb:838:in `pbDexEntry'
+[Pokedex BW Style] BW PokedexMain.rb:1210:in `block (2 levels) in pbPokedex'
+[Pokedex BW Style] BW PokedexMain.rb:1185:in `loop'
+[Pokedex BW Style] BW PokedexMain.rb:1185:in `block in pbPokedex'
+080:MessageConfig:696:in `pbActivateWindow'
+[Pokedex BW Style] BW PokedexMain.rb:1184:in `pbPokedex'
+[Pokedex BW Style] BW PokedexMain.rb:1228:in `pbStartScreen'
+
+=================
+
+[2022-09-19 12:22:25 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 27 (coords 30,70), map 104 (Theta Reactor Hall):
+Exception: NameError
+Message: uninitialized constant Interpreter::STOPPPPP
+
+***Full script:
+PLEASE STOPPPPP
+
+
+Backtrace:
+(eval):1:in `execute_script'
+033:Interpreter:140:in `eval'
+033:Interpreter:140:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+032:Scene_Map:157:in `block in update'
+032:Scene_Map:155:in `loop'
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+032:Scene_Map:157:in `block in update'
+032:Scene_Map:155:in `loop'
+032:Scene_Map:155:in `update'
+
+=================
+
+[2022-09-20 17:11:56 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: TypeError
+Message: no implicit conversion from nil to integer
+
+Backtrace:
+042:Game_Map:273:in `[]'
+042:Game_Map:273:in `block in bush?'
+042:Game_Map:271:in `each'
+042:Game_Map:271:in `bush?'
+378:Always on bush by KleinStudio:17:in `bush_depth'
+061:Sprite_Character:100:in `update'
+067:Sprite_DynamicShadows:160:in `update'
+064:Spriteset_Global:26:in `update'
+032:Scene_Map:147:in `updateSpritesets'
+032:Scene_Map:165:in `update'
+
+=================
+
+[2022-09-22 13:59:02 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NameError
+Message: uninitialized constant PBEffects::Splinters
+
+Backtrace:
+182:Battle_Phase_EndOfRound:355:in `block in pbEndOfRoundPhase'
+182:Battle_Phase_EndOfRound:354:in `each'
+182:Battle_Phase_EndOfRound:354:in `pbEndOfRoundPhase'
+213:PokeBattle_Clauses:40:in `pbEndOfRoundPhase'
+[ZUD Plugin] Battle Mechanics.rb:391:in `pbEndOfRoundPhase'
+[Elite Battle: DX] Battle Core.rb:163:in `pbEndOfRoundPhase'
+173:Battle_StartAndEnd:329:in `block (2 levels) in pbBattleLoop'
+012:PBDebug:6:in `logonerr'
+173:Battle_StartAndEnd:329:in `block in pbBattleLoop'
+173:Battle_StartAndEnd:311:in `loop'
+
+=================
+
+[2022-09-22 14:08:18 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NameError
+Message: uninitialized constant PBEffects::VictoryDance
+
+Backtrace:
+163:Move_Usage_Calculations:424:in `pbCalcDamageMultipliers'
+[ZUD Plugin] Max Raid Battle.rb:443:in `pbCalcDamageMultipliers'
+163:Move_Usage_Calculations:280:in `pbCalcDamage'
+155:Battler_UseMove:666:in `block in pbProcessMoveHit'
+155:Battler_UseMove:658:in `each'
+155:Battler_UseMove:658:in `pbProcessMoveHit'
+[Elite Battle: DX] Battler Info.rb:67:in `pbProcessMoveHit'
+155:Battler_UseMove:438:in `block in pbUseMove'
+155:Battler_UseMove:435:in `each'
+155:Battler_UseMove:435:in `pbUseMove'
+
+=================
+
+[2022-09-22 14:08:39 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NameError
+Message: uninitialized constant PBEffects::VictoryDance
+
+Backtrace:
+163:Move_Usage_Calculations:424:in `pbCalcDamageMultipliers'
+[ZUD Plugin] Max Raid Battle.rb:443:in `pbCalcDamageMultipliers'
+163:Move_Usage_Calculations:280:in `pbCalcDamage'
+155:Battler_UseMove:666:in `block in pbProcessMoveHit'
+155:Battler_UseMove:658:in `each'
+155:Battler_UseMove:658:in `pbProcessMoveHit'
+[Elite Battle: DX] Battler Info.rb:67:in `pbProcessMoveHit'
+155:Battler_UseMove:438:in `block in pbUseMove'
+155:Battler_UseMove:435:in `each'
+155:Battler_UseMove:435:in `pbUseMove'
+
+=================
+
+[2022-09-22 14:08:41 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NameError
+Message: uninitialized constant PBEffects::VictoryDance
+
+Backtrace:
+163:Move_Usage_Calculations:424:in `pbCalcDamageMultipliers'
+[ZUD Plugin] Max Raid Battle.rb:443:in `pbCalcDamageMultipliers'
+163:Move_Usage_Calculations:280:in `pbCalcDamage'
+155:Battler_UseMove:666:in `block in pbProcessMoveHit'
+155:Battler_UseMove:658:in `each'
+155:Battler_UseMove:658:in `pbProcessMoveHit'
+[Elite Battle: DX] Battler Info.rb:67:in `pbProcessMoveHit'
+155:Battler_UseMove:438:in `block in pbUseMove'
+155:Battler_UseMove:435:in `each'
+155:Battler_UseMove:435:in `pbUseMove'
+
+=================
+
+[2022-09-22 14:08:42 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NameError
+Message: uninitialized constant PBEffects::VictoryDance
+
+Backtrace:
+163:Move_Usage_Calculations:424:in `pbCalcDamageMultipliers'
+[ZUD Plugin] Max Raid Battle.rb:443:in `pbCalcDamageMultipliers'
+163:Move_Usage_Calculations:280:in `pbCalcDamage'
+155:Battler_UseMove:666:in `block in pbProcessMoveHit'
+155:Battler_UseMove:658:in `each'
+155:Battler_UseMove:658:in `pbProcessMoveHit'
+[Elite Battle: DX] Battler Info.rb:67:in `pbProcessMoveHit'
+155:Battler_UseMove:438:in `block in pbUseMove'
+155:Battler_UseMove:435:in `each'
+155:Battler_UseMove:435:in `pbUseMove'
+
+=================
+
+[2022-09-22 14:08:44 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NameError
+Message: uninitialized constant PBEffects::VictoryDance
+
+Backtrace:
+163:Move_Usage_Calculations:424:in `pbCalcDamageMultipliers'
+[ZUD Plugin] Max Raid Battle.rb:443:in `pbCalcDamageMultipliers'
+163:Move_Usage_Calculations:280:in `pbCalcDamage'
+155:Battler_UseMove:666:in `block in pbProcessMoveHit'
+155:Battler_UseMove:658:in `each'
+155:Battler_UseMove:658:in `pbProcessMoveHit'
+[Elite Battle: DX] Battler Info.rb:67:in `pbProcessMoveHit'
+155:Battler_UseMove:438:in `block in pbUseMove'
+155:Battler_UseMove:435:in `each'
+155:Battler_UseMove:435:in `pbUseMove'
+
+=================
+
+[2022-09-22 14:08:45 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NameError
+Message: uninitialized constant PBEffects::VictoryDance
+
+Backtrace:
+163:Move_Usage_Calculations:424:in `pbCalcDamageMultipliers'
+[ZUD Plugin] Max Raid Battle.rb:443:in `pbCalcDamageMultipliers'
+163:Move_Usage_Calculations:280:in `pbCalcDamage'
+155:Battler_UseMove:666:in `block in pbProcessMoveHit'
+155:Battler_UseMove:658:in `each'
+155:Battler_UseMove:658:in `pbProcessMoveHit'
+[Elite Battle: DX] Battler Info.rb:67:in `pbProcessMoveHit'
+155:Battler_UseMove:438:in `block in pbUseMove'
+155:Battler_UseMove:435:in `each'
+155:Battler_UseMove:435:in `pbUseMove'
+
+=================
+
+[2022-09-22 14:09:39 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NameError
+Message: uninitialized constant PBEffects::VictoryDance
+
+Backtrace:
+163:Move_Usage_Calculations:424:in `pbCalcDamageMultipliers'
+[ZUD Plugin] Max Raid Battle.rb:443:in `pbCalcDamageMultipliers'
+163:Move_Usage_Calculations:280:in `pbCalcDamage'
+155:Battler_UseMove:666:in `block in pbProcessMoveHit'
+155:Battler_UseMove:658:in `each'
+155:Battler_UseMove:658:in `pbProcessMoveHit'
+[Elite Battle: DX] Battler Info.rb:67:in `pbProcessMoveHit'
+155:Battler_UseMove:438:in `block in pbUseMove'
+155:Battler_UseMove:435:in `each'
+155:Battler_UseMove:435:in `pbUseMove'
+
+=================
+
+[2022-09-22 14:09:44 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NameError
+Message: uninitialized constant PBEffects::VictoryDance
+
+Backtrace:
+163:Move_Usage_Calculations:424:in `pbCalcDamageMultipliers'
+[ZUD Plugin] Max Raid Battle.rb:443:in `pbCalcDamageMultipliers'
+163:Move_Usage_Calculations:280:in `pbCalcDamage'
+155:Battler_UseMove:666:in `block in pbProcessMoveHit'
+155:Battler_UseMove:658:in `each'
+155:Battler_UseMove:658:in `pbProcessMoveHit'
+[Elite Battle: DX] Battler Info.rb:67:in `pbProcessMoveHit'
+155:Battler_UseMove:438:in `block in pbUseMove'
+155:Battler_UseMove:435:in `each'
+155:Battler_UseMove:435:in `pbUseMove'
+
+=================
+
+[2022-09-22 14:09:45 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NameError
+Message: uninitialized constant PBEffects::VictoryDance
+
+Backtrace:
+163:Move_Usage_Calculations:424:in `pbCalcDamageMultipliers'
+[ZUD Plugin] Max Raid Battle.rb:443:in `pbCalcDamageMultipliers'
+163:Move_Usage_Calculations:280:in `pbCalcDamage'
+155:Battler_UseMove:666:in `block in pbProcessMoveHit'
+155:Battler_UseMove:658:in `each'
+155:Battler_UseMove:658:in `pbProcessMoveHit'
+[Elite Battle: DX] Battler Info.rb:67:in `pbProcessMoveHit'
+155:Battler_UseMove:438:in `block in pbUseMove'
+155:Battler_UseMove:435:in `each'
+155:Battler_UseMove:435:in `pbUseMove'
+
+=================
+
+[2022-09-22 14:17:54 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NameError
+Message: uninitialized constant PBEffects::Splinters
+
+Backtrace:
+182:Battle_Phase_EndOfRound:355:in `block in pbEndOfRoundPhase'
+182:Battle_Phase_EndOfRound:354:in `each'
+182:Battle_Phase_EndOfRound:354:in `pbEndOfRoundPhase'
+213:PokeBattle_Clauses:40:in `pbEndOfRoundPhase'
+[ZUD Plugin] Battle Mechanics.rb:391:in `pbEndOfRoundPhase'
+[Elite Battle: DX] Battle Core.rb:163:in `pbEndOfRoundPhase'
+173:Battle_StartAndEnd:329:in `block (2 levels) in pbBattleLoop'
+012:PBDebug:6:in `logonerr'
+173:Battle_StartAndEnd:329:in `block in pbBattleLoop'
+173:Battle_StartAndEnd:311:in `loop'
+
+=================
+
+[2022-09-22 14:18:18 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NameError
+Message: uninitialized constant PBEffects::Splinters
+
+Backtrace:
+182:Battle_Phase_EndOfRound:355:in `block in pbEndOfRoundPhase'
+182:Battle_Phase_EndOfRound:354:in `each'
+182:Battle_Phase_EndOfRound:354:in `pbEndOfRoundPhase'
+213:PokeBattle_Clauses:40:in `pbEndOfRoundPhase'
+[ZUD Plugin] Battle Mechanics.rb:391:in `pbEndOfRoundPhase'
+[Elite Battle: DX] Battle Core.rb:163:in `pbEndOfRoundPhase'
+173:Battle_StartAndEnd:329:in `block (2 levels) in pbBattleLoop'
+012:PBDebug:6:in `logonerr'
+173:Battle_StartAndEnd:329:in `block in pbBattleLoop'
+173:Battle_StartAndEnd:311:in `loop'
+
+=================
+
+[2022-09-22 14:18:47 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NameError
+Message: uninitialized constant PBEffects::Splinters
+
+Backtrace:
+182:Battle_Phase_EndOfRound:355:in `block in pbEndOfRoundPhase'
+182:Battle_Phase_EndOfRound:354:in `each'
+182:Battle_Phase_EndOfRound:354:in `pbEndOfRoundPhase'
+213:PokeBattle_Clauses:40:in `pbEndOfRoundPhase'
+[ZUD Plugin] Battle Mechanics.rb:391:in `pbEndOfRoundPhase'
+[Elite Battle: DX] Battle Core.rb:163:in `pbEndOfRoundPhase'
+173:Battle_StartAndEnd:329:in `block (2 levels) in pbBattleLoop'
+012:PBDebug:6:in `logonerr'
+173:Battle_StartAndEnd:329:in `block in pbBattleLoop'
+173:Battle_StartAndEnd:311:in `loop'
+
+=================
+
+[2022-09-22 14:19:04 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NameError
+Message: uninitialized constant PBEffects::Splinters
+
+Backtrace:
+182:Battle_Phase_EndOfRound:355:in `block in pbEndOfRoundPhase'
+182:Battle_Phase_EndOfRound:354:in `each'
+182:Battle_Phase_EndOfRound:354:in `pbEndOfRoundPhase'
+213:PokeBattle_Clauses:40:in `pbEndOfRoundPhase'
+[ZUD Plugin] Battle Mechanics.rb:391:in `pbEndOfRoundPhase'
+[Elite Battle: DX] Battle Core.rb:163:in `pbEndOfRoundPhase'
+173:Battle_StartAndEnd:329:in `block (2 levels) in pbBattleLoop'
+012:PBDebug:6:in `logonerr'
+173:Battle_StartAndEnd:329:in `block in pbBattleLoop'
+173:Battle_StartAndEnd:311:in `loop'
+
+=================
+
+[2022-09-22 15:27:19 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NameError
+Message: uninitialized constant PictureOrigin::CENTER
+
+Backtrace:
+[BW Summary Screen] BW Summary Screen.rb:151:in `pbStartScene'
+[BW Summary Screen] BW Summary Screen.rb:1698:in `pbStartScreen'
+274:UI_Party:658:in `pbSummary'
+274:UI_Party:1303:in `block in pbPokemonScreen'
+274:UI_Party:1202:in `loop'
+274:UI_Party:1202:in `pbPokemonScreen'
+[Modular Menu] Config.rb:55:in `block (2 levels) in <main>'
+080:MessageConfig:562:in `pbFadeOutIn'
+[Modular Menu] Config.rb:54:in `block in <main>'
+[Modular Menu] Script.rb:62:in `run'
+
+=================
+
+[2022-09-27 09:08:45 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: ArgumentError
+Message: Invalid argument passed to method.
+Expected nil to be one of [Symbol, GameData::Species, String, Integer], but got NilClass.
+
+Backtrace:
+015:Validation:29:in `validate'
+101:GameData:26:in `get'
+[Modular Title Screen] Scene Intro.rb:24:in `main'
+379:Main:35:in `mainFunctionDebug'
+379:Main:18:in `block in mainFunction'
+014:Errors:70:in `pbCriticalCode'
+379:Main:18:in `mainFunction'
+379:Main:45:in `block in <main>'
+379:Main:44:in `loop'
+379:Main:44:in `<main>'
+
+=================
+
+[2022-09-27 09:14:14 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: ArgumentError
+Message: Invalid argument passed to method.
+Expected nil to be one of [Symbol, GameData::Species, String, Integer], but got NilClass.
+
+Backtrace:
+015:Validation:29:in `validate'
+101:GameData:26:in `get'
+[Modular Title Screen] Scene Intro.rb:24:in `main'
+379:Main:35:in `mainFunctionDebug'
+379:Main:18:in `block in mainFunction'
+014:Errors:70:in `pbCriticalCode'
+379:Main:18:in `mainFunction'
+379:Main:45:in `block in <main>'
+379:Main:44:in `loop'
+379:Main:44:in `<main>'
+
+=================
+
+[2022-09-27 09:21:56 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: ArgumentError
+Message: Invalid argument passed to method.
+Expected nil to be one of [Symbol, GameData::Species, String, Integer], but got NilClass.
+
+Backtrace:
+015:Validation:29:in `validate'
+101:GameData:26:in `get'
+[Modular Title Screen] Scene Intro.rb:24:in `main'
+379:Main:35:in `mainFunctionDebug'
+379:Main:18:in `block in mainFunction'
+014:Errors:70:in `pbCriticalCode'
+379:Main:18:in `mainFunction'
+379:Main:45:in `block in <main>'
+379:Main:44:in `loop'
+379:Main:44:in `<main>'
+
+=================
+
+[2022-09-27 20:19:06 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: ArgumentError
+Message: Invalid argument passed to method.
+Expected nil to be one of [Symbol, GameData::Species, String, Integer], but got NilClass.
+
+Backtrace:
+015:Validation:29:in `validate'
+101:GameData:26:in `get'
+[Modular Title Screen] Scene Intro.rb:24:in `main'
+380:Main:35:in `mainFunctionDebug'
+380:Main:18:in `block in mainFunction'
+014:Errors:70:in `pbCriticalCode'
+380:Main:18:in `mainFunction'
+380:Main:45:in `block in <main>'
+380:Main:44:in `loop'
+380:Main:44:in `<main>'
+
+=================
+
+[2022-09-30 05:13:58 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: ArgumentError
+Message: Invalid argument passed to method.
+Expected [":EEVEE", ":ZOROARK", ":NINETALES_1"] to be one of [Symbol, GameData::Species, String, Integer], but got Array.
+
+Backtrace:
+015:Validation:29:in `validate'
+101:GameData:26:in `get'
+[Modular Title Screen] Scene Intro.rb:24:in `main'
+380:Main:35:in `mainFunctionDebug'
+380:Main:18:in `block in mainFunction'
+014:Errors:70:in `pbCriticalCode'
+380:Main:18:in `mainFunction'
+380:Main:45:in `block in <main>'
+380:Main:44:in `loop'
+380:Main:44:in `<main>'
+
+=================
+
+[2022-09-30 05:21:24 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: ArgumentError
+Message: Invalid argument passed to method.
+Expected [:EEVEE, :ZOROARK, :NINETALES_1] to be one of [Symbol, GameData::Species, String, Integer], but got Array.
+
+Backtrace:
+015:Validation:29:in `validate'
+101:GameData:26:in `get'
+[Modular Title Screen] Scene Intro.rb:24:in `main'
+380:Main:35:in `mainFunctionDebug'
+380:Main:18:in `block in mainFunction'
+014:Errors:70:in `pbCriticalCode'
+380:Main:18:in `mainFunction'
+380:Main:45:in `block in <main>'
+380:Main:44:in `loop'
+380:Main:44:in `<main>'
+
+=================
+
+[2022-10-04 16:57:04 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 5 (coords 22,16), map 4 ():
+Exception: ArgumentError
+Message: wrong number of arguments (given 1, expected 2..5)
+
+***Full script:
+pbPokemonMart([
+  :POTION
+])
+
+
+Backtrace:
+[Bag Screen w/interactable Party] Script.rb:419:in `pbStartScene'
+289:UI_PokeMart:263:in `pbStartSellScene2'
+289:UI_PokeMart:244:in `pbStartSellScene'
+289:UI_PokeMart:621:in `pbSellScreen'
+289:UI_PokeMart:685:in `block in pbPokemonMart'
+289:UI_PokeMart:677:in `loop'
+289:UI_PokeMart:677:in `pbPokemonMart'
+(eval):1:in `execute_script'
+033:Interpreter:140:in `eval'
+033:Interpreter:140:in `execute_script'
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+032:Scene_Map:157:in `block in update'
+032:Scene_Map:155:in `loop'
+032:Scene_Map:155:in `update'
+
+=================
+
+[2022-10-04 19:52:45 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+
+Exception: RuntimeError
+Message: Undefined value ZZZ_FLARE in GameData::TrainerType
+File PBS/metadata.txt, section 0, key PlayerE
+ZZZ_FLARE,ZZZ_FLARE.png,ZZZ_FLARE.png,ZZZ_FLARE_w.png,ZZZ_FLARE.png,ZZZ_FLARE_w.png,ZZZ_FLARE.png,ZZZ_FLARE.png
+
+
+
+Backtrace:
+369:Compiler:335:in `checkEnumField'
+369:Compiler:311:in `csvEnumField!'
+369:Compiler:510:in `block in pbGetCsvRecord'
+369:Compiler:402:in `each'
+369:Compiler:402:in `pbGetCsvRecord'
+370:Compiler_CompilePBS:1508:in `block (3 levels) in compile_metadata'
+370:Compiler_CompilePBS:1497:in `each'
+370:Compiler_CompilePBS:1497:in `block (2 levels) in compile_metadata'
+369:Compiler:135:in `block in pbEachFileSection'
+369:Compiler:107:in `block in pbEachFileSectionEx'
+
+=================
+
+[2022-10-05 17:20:01 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Unknown ID SURFITEM.
+
+Backtrace:
+101:GameData:32:in `get'
+245:PokemonBag:91:in `pbQuantity'
+245:PokemonBag:97:in `pbHasItem?'
+[Advanced HM Items] Item Handler.rb:31:in `pbCanUseItem'
+[Advanced HM Items] Item Handler.rb:185:in `pbSurf'
+219:Overworld_FieldMoves:766:in `block in <main>'
+035:Event_Handlers:53:in `block in trigger'
+035:Event_Handlers:48:in `each'
+035:Event_Handlers:48:in `trigger'
+032:Scene_Map:209:in `update'
+
+=================
+
+[2022-10-05 17:22:04 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Unknown ID SURFITEM.
+
+Backtrace:
+101:GameData:32:in `get'
+245:PokemonBag:91:in `pbQuantity'
+245:PokemonBag:97:in `pbHasItem?'
+[Advanced HM Items] Item Handler.rb:31:in `pbCanUseItem'
+[Advanced HM Items] Item Handler.rb:185:in `pbSurf'
+219:Overworld_FieldMoves:766:in `block in <main>'
+035:Event_Handlers:53:in `block in trigger'
+035:Event_Handlers:48:in `each'
+035:Event_Handlers:48:in `trigger'
+032:Scene_Map:209:in `update'
+
+=================
+
+[2022-10-10 09:06:56 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NameError
+Message: undefined local variable or method `newarr10' for #<LocationWindow>
+
+Backtrace:
+[BW Location Signposts] BW_SignPosts.rb:81:in `block in initialize'
+[BW Location Signposts] BW_SignPosts.rb:77:in `each'
+[BW Location Signposts] BW_SignPosts.rb:77:in `initialize'
+216:Overworld:297:in `new'
+216:Overworld:297:in `block in <main>'
+035:Event_Handlers:53:in `block in trigger'
+035:Event_Handlers:48:in `each'
+035:Event_Handlers:48:in `trigger'
+044:Game_MapFactory:157:in `setSceneStarted'
+032:Scene_Map:22:in `createSpritesets'
+
+=================
+
+[2022-10-10 14:44:56 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 34 (coords 53,71), map 95 (Crestelia City | Pink Region ):
+Exception: NameError
+Message: uninitialized constant Interpreter::HEAVYSHAKER
+
+***Full script:
+$bag.add(:SURFBOARD, :SCYTHE, :PICKAXE, :HEAVYPISTON, :FLASHLIGTH, HEAVYSHAKER)
+
+
+Backtrace:
+(eval):1:in `execute_script'
+033:Interpreter:140:in `eval'
+033:Interpreter:140:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+032:Scene_Map:157:in `block in update'
+032:Scene_Map:155:in `loop'
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+032:Scene_Map:157:in `block in update'
+032:Scene_Map:155:in `loop'
+032:Scene_Map:155:in `update'
+
+=================
+
+[2022-10-10 14:46:51 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 34 (coords 51,72), map 95 (Crestelia City | Pink Region ):
+Exception: NoMethodError
+Message: undefined method `add' for nil:NilClass
+
+***Full script:
+$bag.add(:SURFBOARD, :SCYTHE, :PICKAXE, :HEAVYPISTON, :FLASHLIGTH, :HEAVYSHAKER)
+
+
+Backtrace:
+(eval):1:in `execute_script'
+033:Interpreter:140:in `eval'
+033:Interpreter:140:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+032:Scene_Map:157:in `block in update'
+032:Scene_Map:155:in `loop'
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+032:Scene_Map:157:in `block in update'
+032:Scene_Map:155:in `loop'
+032:Scene_Map:155:in `update'
+
+=================
+
+[2022-10-10 14:48:43 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 34 (coords 51,72), map 95 (Crestelia City | Pink Region ):
+Exception: NoMethodError
+Message: undefined method `add' for nil:NilClass
+
+***Full script:
+$bag.add(:SURFBOARD, :SCYTHE, :PICKAXE, :HEAVYPISTON, :FLASHLIGTH, :HEAVYSHAKER)
+
+
+Backtrace:
+(eval):1:in `execute_script'
+033:Interpreter:140:in `eval'
+033:Interpreter:140:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+032:Scene_Map:157:in `block in update'
+032:Scene_Map:155:in `loop'
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+032:Scene_Map:157:in `block in update'
+032:Scene_Map:155:in `loop'
+032:Scene_Map:155:in `update'
+
+=================
+
+[2022-10-10 16:10:25 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: TypeError
+Message: nil can't be coerced into Integer
+
+Backtrace:
+061:Sprite_Character:30:in `-'
+061:Sprite_Character:30:in `pbBushDepthBitmap'
+061:Sprite_Character:21:in `bitmap'
+061:Sprite_Character:140:in `update'
+067:Sprite_DynamicShadows:160:in `update'
+061:Sprite_Character:70:in `initialize'
+067:Sprite_DynamicShadows:132:in `initialize'
+064:Spriteset_Global:7:in `new'
+064:Spriteset_Global:7:in `initialize'
+032:Scene_Map:17:in `new'
+
+=================
+
+[2022-10-11 12:31:19 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NoMethodError
+Message: undefined method `start' for nil:NilClass
+
+Backtrace:
+[Advanced HM Items] Item Handler.rb:118:in `block in <main>'
+035:Event_Handlers:199:in `trigger'
+238:Item_Utilities:74:in `triggerUseInField'
+238:Item_Utilities:684:in `pbUseKeyItemInField'
+285:UI_ReadyMenu:288:in `block in pbStartReadyMenu'
+285:UI_ReadyMenu:252:in `loop'
+285:UI_ReadyMenu:252:in `pbStartReadyMenu'
+285:UI_ReadyMenu:324:in `pbUseKeyItem'
+032:Scene_Map:205:in `update'
+032:Scene_Map:220:in `block in main'
+
+=================
+
+[2022-10-11 14:45:15 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 36 (coords 57,14), map 3 (Crestelia City | Teal Region):
+Exception: NameError
+Message: undefined local variable or method `pkmn' for #<Interpreter @event_id: 36>
+
+***Full script:
+pbAddPokemonSilent(:LEAFEON,20)
+pkmn.name = $Trainer.name
+pkmn.obtain_text = "Mom's House"
+pkmn.status = :NONE
+pkmn.shiny = true
+pkmn.owner.id = $Trainer.id
+pkmn.obtain_method = 1
+
+
+Backtrace:
+(eval):2:in `execute_script'
+033:Interpreter:140:in `eval'
+033:Interpreter:140:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+033:Interpreter:100:in `block in update'
+033:Interpreter:87:in `loop'
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+033:Interpreter:100:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+
+=================
+
+[2022-10-11 14:57:11 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 36 (coords 57,14), map 3 (Crestelia City | Teal Region):
+Exception: NameError
+Message: undefined local variable or method `pkmn' for #<Interpreter @event_id: 36>
+
+***Full script:
+pbAddPokemonSilent(:LEAFEON,20)
+pkmn.name "$Trainer.name"
+pkmn.obtain_text = "Mom's House"
+pkmn.status = :NONE
+pkmn.shiny = true
+pkmn.obtain_method = 1
+
+
+Backtrace:
+(eval):2:in `execute_script'
+033:Interpreter:140:in `eval'
+033:Interpreter:140:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+033:Interpreter:100:in `block in update'
+033:Interpreter:87:in `loop'
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+033:Interpreter:100:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+
+=================
+
+[2022-10-11 15:04:58 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 36 (coords 57,14), map 3 (Crestelia City | Teal Region):
+Exception: NameError
+Message: undefined local variable or method `pkmn' for #<Interpreter @event_id: 36>
+
+***Full script:
+pbAddPokemonSilent(:LEAFEON,20)
+pkmn.changeHappiness("walking")
+pkmn.makeMale
+pkmn.name = "$Trainer.name"
+pkmn.obtain_text = "Mom's House"
+pkmn.status = :NONE
+pkmn.shiny = true
+pkmn.obtain_method = 1
+
+
+Backtrace:
+(eval):2:in `execute_script'
+033:Interpreter:140:in `eval'
+033:Interpreter:140:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+033:Interpreter:100:in `block in update'
+033:Interpreter:87:in `loop'
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+033:Interpreter:100:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+
+=================
+
+[2022-10-11 15:06:39 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 36 (coords 57,14), map 3 (Crestelia City | Teal Region):
+Exception: NameError
+Message: undefined local variable or method `pkmn' for #<Interpreter @event_id: 36>
+
+***Full script:
+pbAddPokemonSilent(:LEAFEON,20)
+pkmn.changeHappiness("walking")
+pkmn.makeMale
+pkmn.name = $Trainer.name
+pkmn.obtain_text = "Mom's House"
+pkmn.status = :NONE
+pkmn.shiny = true
+pkmn.obtain_method = 1
+pkmn.calc_stats
+
+
+Backtrace:
+(eval):2:in `execute_script'
+033:Interpreter:140:in `eval'
+033:Interpreter:140:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+033:Interpreter:100:in `block in update'
+033:Interpreter:87:in `loop'
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+033:Interpreter:100:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+
+=================
+
+[2022-10-11 15:11:03 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 36 (coords 57,14), map 3 (Crestelia City | Teal Region):
+Exception: NameError
+Message: undefined local variable or method `pkmn' for #<Interpreter @event_id: 36>
+
+***Full script:
+pbAddPokemon(:LEAFEON, 20)
+pkmn.changeHappiness("walking")
+pkmn.makeMale
+pkmn.name = "You"
+pkmn.obtain_text = "Mom's House"
+pkmn.status = :NONE
+pkmn.shiny = true
+pkmn.obtain_method = 1
+pkmn.calc_stats
+
+
+Backtrace:
+(eval):2:in `execute_script'
+033:Interpreter:140:in `eval'
+033:Interpreter:140:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+033:Interpreter:100:in `block in update'
+033:Interpreter:87:in `loop'
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+033:Interpreter:100:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+
+=================
+
+[2022-10-11 15:17:17 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 36 (coords 57,14), map 3 (Crestelia City | Teal Region):
+Exception: NoMethodError
+Message: undefined method `changeHappiness' for true:TrueClass
+
+***Full script:
+pkmn = pbAddPokemonSilent(:LEAFEON, 20)
+pkmn.changeHappiness("walking")
+pkmn.makeMale
+pkmn.name = "You"
+pkmn.obtain_text = "Mom's House"
+pkmn.status = :NONE
+pkmn.shiny = true
+pkmn.obtain_method = 1
+pkmn.calc_stats
+silent 
+pbAddPokemon(pkmn)
+
+
+Backtrace:
+(eval):2:in `execute_script'
+033:Interpreter:140:in `eval'
+033:Interpreter:140:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+033:Interpreter:100:in `block in update'
+033:Interpreter:87:in `loop'
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+033:Interpreter:100:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+
+=================
+
+[2022-10-11 15:21:46 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 36 (coords 57,14), map 3 (Crestelia City | Teal Region):
+Exception: NoMethodError
+Message: undefined method `makeMale' for true:TrueClass
+
+***Full script:
+pkmn = pbAddPokemonSilent(:LEAFEON, 20)
+#pkmn.changeHappiness("walking")
+pkmn.makeMale
+pkmn.name = "You" #$Trainer.name	
+pkmn.obtain_text = "Mom's House"
+pkmn.status = :NONE
+pkmn.shiny = true
+pkmn.obtain_method = 1
+pkmn.calc_stats
+pbAddPokemon(pkmn)
+
+
+Backtrace:
+(eval):3:in `execute_script'
+033:Interpreter:140:in `eval'
+033:Interpreter:140:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+033:Interpreter:100:in `block in update'
+033:Interpreter:87:in `loop'
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+033:Interpreter:100:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+
+=================
+
+[2022-10-11 15:23:25 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 36 (coords 57,14), map 3 (Crestelia City | Teal Region):
+Exception: NoMethodError
+Message: undefined method `name=' for true:TrueClass
+
+***Full script:
+pkmn = pbAddPokemonSilent(:LEAFEON, 20)
+#pkmn.changeHappiness("walking")
+#pkmn.makeMale
+pkmn.name = "You" #$Trainer.name	
+pkmn.obtain_text = "Mom's House"
+pkmn.status = :NONE
+pkmn.shiny = true
+pkmn.obtain_method = 1
+pkmn.calc_stats
+pbAddPokemon(pkmn)
+
+
+Backtrace:
+(eval):4:in `execute_script'
+033:Interpreter:140:in `eval'
+033:Interpreter:140:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+033:Interpreter:100:in `block in update'
+033:Interpreter:87:in `loop'
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+033:Interpreter:100:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+
+=================
+
+[2022-10-11 15:27:01 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 36 (coords 57,14), map 3 (Crestelia City | Teal Region):
+Exception: ArgumentError
+Message: Invalid argument passed to method.
+Expected true to be one of [Symbol, GameData::Species, String, Integer], but got TrueClass.
+
+***Full script:
+pkmn = pbAddPokemonSilent(:LEAFEON, 20)
+#pkmn.changeHappiness("walking")
+#pkmn.makeMale
+#pkmn.name = "You" #$Trainer.name	
+#pkmn.obtain_text = "Mom's House"
+#pkmn.status = :NONE
+#pkmn.shiny = true
+#pkmn.obtain_method = 1
+#pkmn.calc_stats
+pbAddPokemon(pkmn)
+
+
+Backtrace:
+015:Validation:29:in `validate'
+101:GameData:26:in `get'
+248:Pokemon:1171:in `initialize'
+[ZUD Plugin] Pokemon Data.rb:215:in `initialize'
+[Elite Battle: DX] Battler Additions.rb:15:in `initialize'
+339:Utilities_Pokemon:72:in `new'
+339:Utilities_Pokemon:72:in `pbAddPokemon'
+[Elite Battle: DX] EBDX Randomizer.rb:304:in `pbAddPokemon'
+(eval):10:in `execute_script'
+033:Interpreter:140:in `eval'
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+033:Interpreter:100:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+
+=================
+
+[2022-10-11 15:30:46 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 36 (coords 57,14), map 3 (Crestelia City | Teal Region):
+Exception: NoMethodError
+Message: undefined method `shiny=' for true:TrueClass
+
+***Full script:
+pkmn = pbAddPokemonSilent(:LEAFEON, 20)
+#pkmn.changeHappiness("walking")
+#pkmn.makeMale
+#pkmn.name = "You" #$Trainer.name	
+#pkmn.obtain_text = "Mom's House"
+#pkmn.status = :NONE
+pkmn.shiny = true
+#pkmn.obtain_method = 1
+#pkmn.calc_stats
+#pbAddPokemon(pkmn)
+
+
+Backtrace:
+(eval):7:in `execute_script'
+033:Interpreter:140:in `eval'
+033:Interpreter:140:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+033:Interpreter:100:in `block in update'
+033:Interpreter:87:in `loop'
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+033:Interpreter:100:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+
+=================
+
+[2022-10-11 16:19:36 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: TypeError
+Message: can't convert NilClass into an exact number
+
+Backtrace:
+248:Pokemon:898:in `at'
+248:Pokemon:898:in `timeEggHatched'
+275:UI_Summary:570:in `drawPageTwo'
+275:UI_Summary:366:in `drawPage'
+275:UI_Summary:1322:in `block in pbScene'
+275:UI_Summary:1260:in `loop'
+275:UI_Summary:1260:in `pbScene'
+275:UI_Summary:1340:in `pbStartScreen'
+274:UI_Party:658:in `pbSummary'
+274:UI_Party:1303:in `block in pbPokemonScreen'
+
+=================
+
+[2022-10-11 16:37:27 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: TypeError
+Message: can't convert NilClass into an exact number
+
+Backtrace:
+248:Pokemon:898:in `at'
+248:Pokemon:898:in `timeEggHatched'
+275:UI_Summary:570:in `drawPageTwo'
+275:UI_Summary:366:in `drawPage'
+275:UI_Summary:1322:in `block in pbScene'
+275:UI_Summary:1260:in `loop'
+275:UI_Summary:1260:in `pbScene'
+275:UI_Summary:1340:in `pbStartScreen'
+274:UI_Party:658:in `pbSummary'
+274:UI_Party:1303:in `block in pbPokemonScreen'
+
+=================
+
+[2022-10-13 20:29:16 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RGSSError
+Message: disposed viewport
+
+Backtrace:
+[Modular Menu] Script.rb:188:in `rect'
+[Modular Menu] Script.rb:188:in `pbHideMenu'
+377:Zoom screen by  TechSkylander:39:in `update'
+377:Zoom screen by  TechSkylander:95:in `block in <main>'
+035:Event_Handlers:53:in `block in trigger'
+035:Event_Handlers:48:in `each'
+035:Event_Handlers:48:in `trigger'
+032:Scene_Map:151:in `updateSpritesets'
+032:Scene_Map:165:in `update'
+032:Scene_Map:220:in `block in main'
+
+=================
+
+[2022-10-14 18:23:47 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RGSSError
+Message: disposed viewport
+
+Backtrace:
+[Modular Menu] Script.rb:188:in `rect'
+[Modular Menu] Script.rb:188:in `pbHideMenu'
+377:Zoom screen by  TechSkylander:39:in `update'
+377:Zoom screen by  TechSkylander:95:in `block in <main>'
+035:Event_Handlers:53:in `block in trigger'
+035:Event_Handlers:48:in `each'
+035:Event_Handlers:48:in `trigger'
+032:Scene_Map:151:in `updateSpritesets'
+032:Scene_Map:165:in `update'
+032:Scene_Map:220:in `block in main'
+
+=================
+
+[2022-10-14 20:00:35 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RGSSError
+Message: disposed viewport
+
+Backtrace:
+[Modular Menu] Script.rb:188:in `rect'
+[Modular Menu] Script.rb:188:in `pbHideMenu'
+377:Zoom screen by  TechSkylander:39:in `update'
+377:Zoom screen by  TechSkylander:95:in `block in <main>'
+035:Event_Handlers:53:in `block in trigger'
+035:Event_Handlers:48:in `each'
+035:Event_Handlers:48:in `trigger'
+032:Scene_Map:151:in `updateSpritesets'
+032:Scene_Map:165:in `update'
+032:Scene_Map:220:in `block in main'
+
+=================
+
+[2022-10-18 17:28:55 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NameError
+Message: undefined local variable or method `newhp' for nil:NilClass
+
+Backtrace:
+366:Debug_PokemonCommands:226:in `block in <main>'
+366:Debug_PokemonCommands:36:in `call'
+362:Debug_Menus:164:in `block in pbPokemonDebug'
+362:Debug_Menus:149:in `loop'
+362:Debug_Menus:149:in `pbPokemonDebug'
+274:UI_Party:1307:in `block in pbPokemonScreen'
+274:UI_Party:1202:in `loop'
+274:UI_Party:1202:in `pbPokemonScreen'
+[Modular Menu] Config.rb:55:in `block (2 levels) in <main>'
+080:MessageConfig:562:in `pbFadeOutIn'
+
+=================
+
+[2022-10-23 18:06:44 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NoMethodError
+Message: undefined method `badges' for nil:NilClass
+
+Backtrace:
+[BadgeCase] UI.rb:169:in `block in drawCasePage'
+[BadgeCase] UI.rb:168:in `each'
+[BadgeCase] UI.rb:168:in `drawCasePage'
+[BadgeCase] UI.rb:156:in `drawPage'
+[BadgeCase] UI.rb:92:in `pbStartScene'
+[BadgeCase] UI.rb:297:in `pbStartScreen'
+[Modular Menu] Config.rb:115:in `block in <main>'
+[Modular Menu] Script.rb:62:in `run'
+[Modular Menu] Script.rb:360:in `block in pbStartPokemonMenu'
+[Modular Menu] Script.rb:343:in `loop'
+
+=================
+
+[2022-10-23 18:07:57 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NoMethodError
+Message: undefined method `badges' for nil:NilClass
+
+Backtrace:
+[BadgeCase] UI.rb:169:in `block in drawCasePage'
+[BadgeCase] UI.rb:168:in `each'
+[BadgeCase] UI.rb:168:in `drawCasePage'
+[BadgeCase] UI.rb:156:in `drawPage'
+[BadgeCase] UI.rb:92:in `pbStartScene'
+[BadgeCase] UI.rb:297:in `pbStartScreen'
+[Modular Menu] Config.rb:115:in `block in <main>'
+[Modular Menu] Script.rb:62:in `run'
+[Modular Menu] Script.rb:360:in `block in pbStartPokemonMenu'
+[Modular Menu] Script.rb:343:in `loop'
+
+=================
+
+[2022-10-28 21:38:15 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Unknown ID 0.
+
+Backtrace:
+101:GameData:32:in `get'
+[Modular Title Screen] Scene Intro.rb:24:in `main'
+382:Main:35:in `mainFunctionDebug'
+382:Main:18:in `block in mainFunction'
+014:Errors:70:in `pbCriticalCode'
+382:Main:18:in `mainFunction'
+382:Main:45:in `block in <main>'
+382:Main:44:in `loop'
+382:Main:44:in `<main>'
+-e:in `eval'
+
+=================
+
+[2022-11-04 19:28:15 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 2 (coords 12,7), map 11 (Crestelia City | Crimson Region):
+Exception: NameError
+Message: uninitialized constant Interpreter::Quest8
+
+***Full script:
+completeQuest(Quest8, colorQuest("green"), false)
+
+
+Backtrace:
+(eval):1:in `execute_script'
+033:Interpreter:140:in `eval'
+033:Interpreter:140:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+032:Scene_Map:157:in `block in update'
+032:Scene_Map:155:in `loop'
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+032:Scene_Map:157:in `block in update'
+032:Scene_Map:155:in `loop'
+032:Scene_Map:155:in `update'
+
+=================
+
+[2022-11-19 14:23:10 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NoMethodError
+Message: undefined method `*' for nil:NilClass
+
+Backtrace:
+075:CustomTilemap:510:in `addTile'
+075:CustomTilemap:943:in `block in refresh'
+075:CustomTilemap:940:in `each'
+075:CustomTilemap:940:in `refresh'
+075:CustomTilemap:1009:in `update'
+074:TilemapLoader:38:in `update'
+065:Spriteset_Map:121:in `update'
+066:Sprite_AnimationSprite:81:in `update'
+065:Spriteset_Map:68:in `initialize'
+066:Sprite_AnimationSprite:50:in `initialize'
+
+=================
+
+[2022-11-19 14:27:18 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NoMethodError
+Message: undefined method `*' for nil:NilClass
+
+Backtrace:
+075:CustomTilemap:510:in `addTile'
+075:CustomTilemap:943:in `block in refresh'
+075:CustomTilemap:940:in `each'
+075:CustomTilemap:940:in `refresh'
+075:CustomTilemap:1009:in `update'
+074:TilemapLoader:38:in `update'
+065:Spriteset_Map:121:in `update'
+066:Sprite_AnimationSprite:81:in `update'
+065:Spriteset_Map:68:in `initialize'
+066:Sprite_AnimationSprite:50:in `initialize'
+
+=================
+
+[2022-11-19 14:32:50 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NoMethodError
+Message: undefined method `*' for nil:NilClass
+
+Backtrace:
+075:CustomTilemap:510:in `addTile'
+075:CustomTilemap:943:in `block in refresh'
+075:CustomTilemap:940:in `each'
+075:CustomTilemap:940:in `refresh'
+075:CustomTilemap:1009:in `update'
+074:TilemapLoader:38:in `update'
+065:Spriteset_Map:121:in `update'
+066:Sprite_AnimationSprite:81:in `update'
+065:Spriteset_Map:68:in `initialize'
+066:Sprite_AnimationSprite:50:in `initialize'
+
+=================
+
+[2022-11-25 14:24:46 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NoMethodError
+Message: undefined method `[]' for nil:NilClass
+
+Backtrace:
+[Somersault Utilities Script] [004] Map Utilities Script.rb:69:in `getData'
+[Somersault Utilities Script] [004] Map Utilities Script.rb:228:in `pbUpdateCurPos'
+[Somersault Utilities Script] [004] Map Utilities Script.rb:223:in `pbUpdLocData'
+[Somersault Utilities Script] [004] Map Utilities Script.rb:170:in `pbLoadSMMapData'
+[Somersault Utilities Script] [004] Map Utilities Script.rb:332:in `pbStartLoadScreen'
+[Elite Battle: DX] EBDX Nuzlocke.rb:340:in `pbStartLoadScreen'
+[Elite Battle: DX] EBDX Randomizer.rb:345:in `pbStartLoadScreen'
+[Modular Title Screen] Scene Intro.rb:77:in `closeTitle'
+[Modular Title Screen] Scene Intro.rb:61:in `update'
+[Modular Title Screen] Scene Intro.rb:36:in `main'
+
+=================
+
+[2022-11-25 14:36:12 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NoMethodError
+Message: undefined method `[]' for nil:NilClass
+
+Backtrace:
+[Somersault Utilities Script] [004] Map Utilities Script.rb:69:in `getData'
+[Somersault Utilities Script] [004] Map Utilities Script.rb:228:in `pbUpdateCurPos'
+[Somersault Utilities Script] [004] Map Utilities Script.rb:223:in `pbUpdLocData'
+[Somersault Utilities Script] [004] Map Utilities Script.rb:170:in `pbLoadSMMapData'
+[Somersault Utilities Script] [004] Map Utilities Script.rb:332:in `pbStartLoadScreen'
+[Elite Battle: DX] EBDX Nuzlocke.rb:340:in `pbStartLoadScreen'
+[Elite Battle: DX] EBDX Randomizer.rb:345:in `pbStartLoadScreen'
+[Modular Title Screen] Scene Intro.rb:77:in `closeTitle'
+[Modular Title Screen] Scene Intro.rb:61:in `update'
+[Modular Title Screen] Scene Intro.rb:36:in `main'
+
+=================
+
+[2022-12-10 16:50:07 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+
+Error in Plugin [BW Location Signposts]:
+SyntaxError occurred.
+Line 89: Dynamic constant assignment
+      castlelize=castlelize+newarr10
+      ^~~~~~~~~~: [BW Location Signposts] BW_SignPosts.rb
+
+Backtrace:
+008:PluginManager:705:in `eval'
+008:PluginManager:705:in `block (2 levels) in runPlugins'
+008:PluginManager:695:in `each'
+008:PluginManager:695:in `block in runPlugins'
+008:PluginManager:689:in `each'
+008:PluginManager:689:in `runPlugins'
+382:Main:28:in `mainFunctionDebug'
+382:Main:18:in `block in mainFunction'
+014:Errors:70:in `pbCriticalCode'
+382:Main:18:in `mainFunction'
+
+=================
+
+[2022-12-10 16:57:42 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NoMethodError
+Message: undefined method `*' for nil:NilClass
+
+Backtrace:
+075:CustomTilemap:511:in `addTile'
+075:CustomTilemap:944:in `block in refresh'
+075:CustomTilemap:941:in `each'
+075:CustomTilemap:941:in `refresh'
+075:CustomTilemap:1010:in `update'
+074:TilemapLoader:38:in `update'
+065:Spriteset_Map:121:in `update'
+066:Sprite_AnimationSprite:81:in `update'
+065:Spriteset_Map:68:in `initialize'
+066:Sprite_AnimationSprite:50:in `initialize'
+
+=================
+
+[2022-12-10 17:08:13 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RGSSError
+Message: disposed viewport
+
+Backtrace:
+[Modular Menu] Script.rb:188:in `rect'
+[Modular Menu] Script.rb:188:in `pbHideMenu'
+377:Zoom screen by  TechSkylander:39:in `update'
+377:Zoom screen by  TechSkylander:95:in `block in <main>'
+035:Event_Handlers:53:in `block in trigger'
+035:Event_Handlers:48:in `each'
+035:Event_Handlers:48:in `trigger'
+032:Scene_Map:151:in `updateSpritesets'
+032:Scene_Map:165:in `update'
+380:Quicksave by Low:4:in `update'
+
+=================
+
+[2022-12-11 12:13:42 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: SystemStackError
+Message: stack level too deep
+
+Backtrace:
+248:Pokemon:395:in `shiny?'
+[Elite Battle: DX] Battler Additions.rb:40:in `shiny?'
+[Additional Animations - Overworld Encounters Add On] 002_add_on_additional_animations.rb:117:in `call'
+[Additional Animations - Overworld Encounters Add On] 002_add_on_additional_animations.rb:117:in `block in update'
+[Additional Animations - Overworld Encounters Add On] 002_add_on_additional_animations.rb:113:in `each'
+[Additional Animations - Overworld Encounters Add On] 002_add_on_additional_animations.rb:113:in `update'
+[Additional Despawn Methods - Overworld Encounters Add On] 005_add_on_additional_despawn_methods.rb:65:in `update'
+[Additional Animations - Overworld Encounters Add On] 002_add_on_additional_animations.rb:138:in `update'
+[Additional Despawn Methods - Overworld Encounters Add On] 005_add_on_additional_despawn_methods.rb:65:in `update'
+[Additional Animations - Overworld Encounters Add On] 002_add_on_additional_animations.rb:138:in `update'
+
+=================
+
+[2022-12-11 12:25:00 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: SystemStackError
+Message: stack level too deep
+
+Backtrace:
+248:Pokemon:395:in `shiny?'
+[Elite Battle: DX] Battler Additions.rb:40:in `shiny?'
+[Additional Animations - Overworld Encounters Add On] 002_add_on_additional_animations.rb:117:in `call'
+[Additional Animations - Overworld Encounters Add On] 002_add_on_additional_animations.rb:117:in `block in update'
+[Additional Animations - Overworld Encounters Add On] 002_add_on_additional_animations.rb:113:in `each'
+[Additional Animations - Overworld Encounters Add On] 002_add_on_additional_animations.rb:113:in `update'
+[Additional Despawn Methods - Overworld Encounters Add On] 005_add_on_additional_despawn_methods.rb:65:in `update'
+[Additional Animations - Overworld Encounters Add On] 002_add_on_additional_animations.rb:138:in `update'
+[Additional Despawn Methods - Overworld Encounters Add On] 005_add_on_additional_despawn_methods.rb:65:in `update'
+[Additional Animations - Overworld Encounters Add On] 002_add_on_additional_animations.rb:138:in `update'
+
+=================
+
+[2022-12-11 12:41:25 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: SystemStackError
+Message: stack level too deep
+
+Backtrace:
+248:Pokemon:395:in `shiny?'
+[Elite Battle: DX] Battler Additions.rb:40:in `shiny?'
+[Additional Animations - Overworld Encounters Add On] 002_add_on_additional_animations.rb:117:in `call'
+[Additional Animations - Overworld Encounters Add On] 002_add_on_additional_animations.rb:117:in `block in update'
+[Additional Animations - Overworld Encounters Add On] 002_add_on_additional_animations.rb:113:in `each'
+[Additional Animations - Overworld Encounters Add On] 002_add_on_additional_animations.rb:113:in `update'
+[Additional Despawn Methods - Overworld Encounters Add On] 005_add_on_additional_despawn_methods.rb:65:in `update'
+[Additional Animations - Overworld Encounters Add On] 002_add_on_additional_animations.rb:138:in `update'
+[Additional Despawn Methods - Overworld Encounters Add On] 005_add_on_additional_despawn_methods.rb:65:in `update'
+[Additional Animations - Overworld Encounters Add On] 002_add_on_additional_animations.rb:138:in `update'
+
+=================
+
+[2022-12-12 09:13:30 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: SystemStackError
+Message: stack level too deep
+
+Backtrace:
+248:Pokemon:395:in `shiny?'
+[Elite Battle: DX] Battler Additions.rb:40:in `shiny?'
+[Additional Animations - Overworld Encounters Add On] 002_add_on_additional_animations.rb:117:in `call'
+[Additional Animations - Overworld Encounters Add On] 002_add_on_additional_animations.rb:117:in `block in update'
+[Additional Animations - Overworld Encounters Add On] 002_add_on_additional_animations.rb:113:in `each'
+[Additional Animations - Overworld Encounters Add On] 002_add_on_additional_animations.rb:113:in `update'
+[Additional Despawn Methods - Overworld Encounters Add On] 005_add_on_additional_despawn_methods.rb:65:in `update'
+[Additional Animations - Overworld Encounters Add On] 002_add_on_additional_animations.rb:138:in `update'
+[Additional Despawn Methods - Overworld Encounters Add On] 005_add_on_additional_despawn_methods.rb:65:in `update'
+[Additional Animations - Overworld Encounters Add On] 002_add_on_additional_animations.rb:138:in `update'
+
+=================
+
+[2022-12-14 08:31:47 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 22 (coords 29,30), map 27 (Castlelize Empire | Entrance Garden):
+Exception: SyntaxError
+Message: (eval):2: `@2' is not allowed as an instance variable name
+  @23, "Zeta", 2
+  ^
+(eval):2: syntax error, unexpected integer literal, expecting ')'
+  @23, "Zeta", 2
+   ^~
+
+
+***Full script:
+pbAddDependency2(
+  @23, "Zeta", 2
+)
+
+
+Backtrace:
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+032:Scene_Map:157:in `block in update'
+032:Scene_Map:155:in `loop'
+032:Scene_Map:155:in `update'
+
+=================
+
+[2022-12-14 09:59:37 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NameError
+Message: uninitialized constant DependentEvents::PBTerrain
+
+Backtrace:
+050:Game_DependentEvents:227:in `block in pbFollowEventAcrossMaps'
+050:Game_DependentEvents:220:in `each'
+050:Game_DependentEvents:220:in `pbFollowEventAcrossMaps'
+050:Game_DependentEvents:351:in `block in pbMoveDependentEvents'
+050:Game_DependentEvents:349:in `each'
+050:Game_DependentEvents:349:in `pbMoveDependentEvents'
+047:Game_Player:50:in `move_generic'
+375:Boon's Terrain Tag Side Stairs:134:in `move_generic'
+045:Game_Character:544:in `move_right'
+047:Game_Player:337:in `update_command_new'
+
+=================
+
+[2022-12-26 13:44:59 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NameError
+Message: uninitialized constant DependentEvents::PBTerrain
+
+Backtrace:
+050:Game_DependentEvents:227:in `block in pbFollowEventAcrossMaps'
+050:Game_DependentEvents:220:in `each'
+050:Game_DependentEvents:220:in `pbFollowEventAcrossMaps'
+050:Game_DependentEvents:351:in `block in pbMoveDependentEvents'
+050:Game_DependentEvents:349:in `each'
+050:Game_DependentEvents:349:in `pbMoveDependentEvents'
+047:Game_Player:50:in `move_generic'
+375:Boon's Terrain Tag Side Stairs:134:in `move_generic'
+045:Game_Character:544:in `move_right'
+047:Game_Player:337:in `update_command_new'
+
+=================
+
+[2022-12-26 13:46:56 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NameError
+Message: uninitialized constant DependentEvents::PBTerrain
+
+Backtrace:
+050:Game_DependentEvents:227:in `block in pbFollowEventAcrossMaps'
+050:Game_DependentEvents:220:in `each'
+050:Game_DependentEvents:220:in `pbFollowEventAcrossMaps'
+050:Game_DependentEvents:351:in `block in pbMoveDependentEvents'
+050:Game_DependentEvents:349:in `each'
+050:Game_DependentEvents:349:in `pbMoveDependentEvents'
+047:Game_Player:50:in `move_generic'
+375:Boon's Terrain Tag Side Stairs:134:in `move_generic'
+045:Game_Character:544:in `move_right'
+047:Game_Player:337:in `update_command_new'
+
+=================
+
+[2022-12-26 13:50:15 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NameError
+Message: uninitialized constant DependentEvents::PBTerrain
+
+Backtrace:
+050:Game_DependentEvents:225:in `block in pbFollowEventAcrossMaps'
+050:Game_DependentEvents:220:in `each'
+050:Game_DependentEvents:220:in `pbFollowEventAcrossMaps'
+050:Game_DependentEvents:351:in `block in pbMoveDependentEvents'
+050:Game_DependentEvents:349:in `each'
+050:Game_DependentEvents:349:in `pbMoveDependentEvents'
+047:Game_Player:50:in `move_generic'
+375:Boon's Terrain Tag Side Stairs:134:in `move_generic'
+045:Game_Character:540:in `move_left'
+047:Game_Player:336:in `update_command_new'
+
+=================
+
+[2022-12-26 13:51:58 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NameError
+Message: uninitialized constant DependentEvents::PBTerrain
+
+Backtrace:
+050:Game_DependentEvents:225:in `block in pbFollowEventAcrossMaps'
+050:Game_DependentEvents:220:in `each'
+050:Game_DependentEvents:220:in `pbFollowEventAcrossMaps'
+050:Game_DependentEvents:351:in `block in pbMoveDependentEvents'
+050:Game_DependentEvents:349:in `each'
+050:Game_DependentEvents:349:in `pbMoveDependentEvents'
+047:Game_Player:50:in `move_generic'
+375:Boon's Terrain Tag Side Stairs:134:in `move_generic'
+045:Game_Character:540:in `move_left'
+047:Game_Player:336:in `update_command_new'
+
+=================
+
+[2022-12-26 13:53:14 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NameError
+Message: uninitialized constant DependentEvents::PBTerrain
+
+Backtrace:
+050:Game_DependentEvents:225:in `block in pbFollowEventAcrossMaps'
+050:Game_DependentEvents:220:in `each'
+050:Game_DependentEvents:220:in `pbFollowEventAcrossMaps'
+050:Game_DependentEvents:351:in `block in pbMoveDependentEvents'
+050:Game_DependentEvents:349:in `each'
+050:Game_DependentEvents:349:in `pbMoveDependentEvents'
+047:Game_Player:50:in `move_generic'
+375:Boon's Terrain Tag Side Stairs:134:in `move_generic'
+045:Game_Character:540:in `move_left'
+047:Game_Player:336:in `update_command_new'
+
+=================
+
+[2022-12-26 13:55:20 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NameError
+Message: uninitialized constant DependentEvents::PBTerrain
+
+Backtrace:
+050:Game_DependentEvents:225:in `block in pbFollowEventAcrossMaps'
+050:Game_DependentEvents:220:in `each'
+050:Game_DependentEvents:220:in `pbFollowEventAcrossMaps'
+050:Game_DependentEvents:351:in `block in pbMoveDependentEvents'
+050:Game_DependentEvents:349:in `each'
+050:Game_DependentEvents:349:in `pbMoveDependentEvents'
+047:Game_Player:50:in `move_generic'
+375:Boon's Terrain Tag Side Stairs:134:in `move_generic'
+045:Game_Character:540:in `move_left'
+047:Game_Player:336:in `update_command_new'
+
+=================
+
+[2022-12-26 14:03:10 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NameError
+Message: uninitialized constant DependentEvents::PBTerrain
+
+Backtrace:
+050:Game_DependentEvents:227:in `block in pbFollowEventAcrossMaps'
+050:Game_DependentEvents:220:in `each'
+050:Game_DependentEvents:220:in `pbFollowEventAcrossMaps'
+050:Game_DependentEvents:351:in `block in pbMoveDependentEvents'
+050:Game_DependentEvents:349:in `each'
+050:Game_DependentEvents:349:in `pbMoveDependentEvents'
+047:Game_Player:50:in `move_generic'
+375:Boon's Terrain Tag Side Stairs:134:in `move_generic'
+045:Game_Character:544:in `move_right'
+047:Game_Player:337:in `update_command_new'
+
+=================
+
+[2022-12-26 14:04:46 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NameError
+Message: uninitialized constant DependentEvents::PBTerrain
+
+Backtrace:
+050:Game_DependentEvents:227:in `block in pbFollowEventAcrossMaps'
+050:Game_DependentEvents:220:in `each'
+050:Game_DependentEvents:220:in `pbFollowEventAcrossMaps'
+050:Game_DependentEvents:351:in `block in pbMoveDependentEvents'
+050:Game_DependentEvents:349:in `each'
+050:Game_DependentEvents:349:in `pbMoveDependentEvents'
+047:Game_Player:50:in `move_generic'
+375:Boon's Terrain Tag Side Stairs:134:in `move_generic'
+045:Game_Character:544:in `move_right'
+047:Game_Player:337:in `update_command_new'
+
+=================
+
+[2022-12-27 23:45:39 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NoMethodError
+Message: undefined method `*' for nil:NilClass
+
+Backtrace:
+075:CustomTilemap:511:in `addTile'
+075:CustomTilemap:944:in `block in refresh'
+075:CustomTilemap:941:in `each'
+075:CustomTilemap:941:in `refresh'
+075:CustomTilemap:1010:in `update'
+074:TilemapLoader:38:in `update'
+065:Spriteset_Map:121:in `update'
+066:Sprite_AnimationSprite:81:in `update'
+032:Scene_Map:144:in `block in updateSpritesets'
+032:Scene_Map:138:in `each'
+
+=================
+
+[2022-12-27 23:47:01 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NoMethodError
+Message: undefined method `*' for nil:NilClass
+
+Backtrace:
+075:CustomTilemap:511:in `addTile'
+075:CustomTilemap:944:in `block in refresh'
+075:CustomTilemap:941:in `each'
+075:CustomTilemap:941:in `refresh'
+075:CustomTilemap:1010:in `update'
+074:TilemapLoader:38:in `update'
+065:Spriteset_Map:121:in `update'
+066:Sprite_AnimationSprite:81:in `update'
+032:Scene_Map:144:in `block in updateSpritesets'
+032:Scene_Map:138:in `each'
+
+=================
+
+[2022-12-28 07:09:22 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+
+Error in Plugin [BW Save Screen]:
+SyntaxError occurred.
+Line 182: Syntax error, unexpected end-of-input, expecting `end': [BW Save Screen] BWSaveScreen.rb
+
+Backtrace:
+008:PluginManager:705:in `eval'
+008:PluginManager:705:in `block (2 levels) in runPlugins'
+008:PluginManager:695:in `each'
+008:PluginManager:695:in `block in runPlugins'
+008:PluginManager:689:in `each'
+008:PluginManager:689:in `runPlugins'
+382:Main:28:in `mainFunctionDebug'
+382:Main:18:in `block in mainFunction'
+014:Errors:70:in `pbCriticalCode'
+382:Main:18:in `mainFunction'
+
+=================
+
+[2022-12-28 07:10:36 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+
+Error in Plugin [BW Save Screen]:
+SyntaxError occurred.
+Line 182: Syntax error, unexpected end-of-input, expecting `end': [BW Save Screen] BWSaveScreen.rb
+
+Backtrace:
+008:PluginManager:705:in `eval'
+008:PluginManager:705:in `block (2 levels) in runPlugins'
+008:PluginManager:695:in `each'
+008:PluginManager:695:in `block in runPlugins'
+008:PluginManager:689:in `each'
+008:PluginManager:689:in `runPlugins'
+382:Main:28:in `mainFunctionDebug'
+382:Main:18:in `block in mainFunction'
+014:Errors:70:in `pbCriticalCode'
+382:Main:18:in `mainFunction'
+
+=================
+
+[2022-12-28 07:12:01 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+
+Error in Plugin [BW Save Screen]:
+SyntaxError occurred.
+Line 180: Syntax error, unexpected end-of-input, expecting `end': [BW Save Screen] BWSaveScreen.rb
+
+Backtrace:
+008:PluginManager:705:in `eval'
+008:PluginManager:705:in `block (2 levels) in runPlugins'
+008:PluginManager:695:in `each'
+008:PluginManager:695:in `block in runPlugins'
+008:PluginManager:689:in `each'
+008:PluginManager:689:in `runPlugins'
+382:Main:28:in `mainFunctionDebug'
+382:Main:18:in `block in mainFunction'
+014:Errors:70:in `pbCriticalCode'
+382:Main:18:in `mainFunction'
+
+=================
+
+[2022-12-28 07:14:22 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: SystemStackError
+Message: stack level too deep
+
+Backtrace:
+[BW Save Screen] BWSaveScreen.rb:176:in `new'
+[BW Save Screen] BWSaveScreen.rb:176:in `pbSaveScreen'
+[BW Save Screen] BWSaveScreen.rb:178:in `pbSaveScreen'
+[BW Save Screen] BWSaveScreen.rb:178:in `pbSaveScreen'
+[BW Save Screen] BWSaveScreen.rb:178:in `pbSaveScreen'
+[BW Save Screen] BWSaveScreen.rb:178:in `pbSaveScreen'
+[BW Save Screen] BWSaveScreen.rb:178:in `pbSaveScreen'
+[BW Save Screen] BWSaveScreen.rb:178:in `pbSaveScreen'
+[BW Save Screen] BWSaveScreen.rb:178:in `pbSaveScreen'
+[BW Save Screen] BWSaveScreen.rb:178:in `pbSaveScreen'
+
+=================
+
+[2022-12-28 07:16:33 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NoMethodError
+Message: undefined method `pbConfirmMessageSystemModern' for #<PokemonSaveScreen>
+
+Backtrace:
+[BW Save Screen] BWSaveScreen.rb:138:in `pbSaveScreen'
+[Modular Menu] Config.rb:129:in `block in <main>'
+[Modular Menu] Script.rb:62:in `run'
+[Modular Menu] Script.rb:360:in `block in pbStartPokemonMenu'
+[Modular Menu] Script.rb:343:in `loop'
+[Modular Menu] Script.rb:343:in `pbStartPokemonMenu'
+377:Zoom screen by  TechSkylander:120:in `call_menu'
+032:Scene_Map:199:in `update'
+380:Quicksave by Low:4:in `update'
+032:Scene_Map:220:in `block in main'
+
+=================
+
+[2022-12-29 08:42:46 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+
+Exception: RuntimeError
+Message: Item ID 'SHALOURSABLE' is used twice.
+File PBS/items.txt, line 645
+617,SHALOURSABLE,Big Malasada,Big Malasadas,2,350,"The Alola region's specialty--fried bread. It can be used once to heal all the status conditions of a Pokémon.",1,1,0
+
+
+
+
+Backtrace:
+370:Compiler_CompilePBS:314:in `block in compile_items'
+369:Compiler:200:in `block (2 levels) in pbCompilerEachCommentedLine'
+369:Compiler:193:in `each_line'
+369:Compiler:193:in `block in pbCompilerEachCommentedLine'
+369:Compiler:190:in `open'
+369:Compiler:190:in `pbCompilerEachCommentedLine'
+370:Compiler_CompilePBS:307:in `compile_items'
+369:Compiler:700:in `compile_all'
+[Elite Battle: DX] EBDX Compiler.rb:98:in `compile_all'
+369:Compiler:841:in `main'
+
+=================
+
+[2022-12-29 09:04:42 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 32 (coords 49,12), map 46 (Empire - castlelize | Palace's Lobby):
+Exception: ArgumentError
+Message: wrong number of arguments (given 1, expected 2..5)
+
+***Full script:
+pbPokemonMart([
+  :LUMIOSEGALETTE,
+  :SHALOURSABLE,
+  :BIGMALASADA
+])
+
+
+Backtrace:
+[Bag Screen w/interactable Party] Script.rb:419:in `pbStartScene'
+289:UI_PokeMart:263:in `pbStartSellScene2'
+289:UI_PokeMart:244:in `pbStartSellScene'
+289:UI_PokeMart:621:in `pbSellScreen'
+289:UI_PokeMart:685:in `block in pbPokemonMart'
+289:UI_PokeMart:677:in `loop'
+289:UI_PokeMart:677:in `pbPokemonMart'
+(eval):1:in `execute_script'
+033:Interpreter:140:in `eval'
+033:Interpreter:140:in `execute_script'
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+032:Scene_Map:157:in `block in update'
+032:Scene_Map:155:in `loop'
+032:Scene_Map:155:in `update'
+
+=================
+
+[2022-12-31 07:06:38 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 45 (coords 13,32), map 45 (Empire - castlelize | Palace's Lobby):
+Exception: NoMethodError
+Message: undefined method `width' for nil:NilClass
+
+***Full script:
+startCharacterSelection(
+["trainer_POKEMONTRAINER_Red","trainer_POKEMONTRAINER_Leaf",
+"trainer_POKEMONTRAINER_Brendan","trainer_POKEMONTRAINER_May"],
+["POKEMONTRAINER_Red","POKEMONTRAINER_Leaf",
+"POKEMONTRAINER_Brendan","POKEMONTRAINER_May"]) 
+#
+pbChangePlayer(result+1)
+
+
+Backtrace:
+382:Character Selection - by FL:103:in `updateCursor'
+382:Character Selection - by FL:134:in `block in pbMidScene'
+382:Character Selection - by FL:115:in `loop'
+382:Character Selection - by FL:115:in `pbMidScene'
+382:Character Selection - by FL:271:in `pbStartScreen'
+382:Character Selection - by FL:282:in `block in startCharacterSelection'
+080:MessageConfig:562:in `pbFadeOutIn'
+382:Character Selection - by FL:279:in `startCharacterSelection'
+(eval):1:in `execute_script'
+033:Interpreter:140:in `eval'
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+032:Scene_Map:157:in `block in update'
+032:Scene_Map:155:in `loop'
+032:Scene_Map:155:in `update'
+
+=================
+
+[2022-12-31 07:37:30 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 45 (coords 13,32), map 45 (Empire - castlelize | Palace's Lobby):
+Exception: NoMethodError
+Message: undefined method `width' for nil:NilClass
+
+***Full script:
+startCharacterSelection(
+["ZZZ_LEAF","ZZZ_LEAFIA","","","",""],
+["ZZZ_LEAF","ZZZ_LEAFIA","","","",""]
+) 
+#
+pbChangePlayer(result+1)
+
+
+Backtrace:
+382:Character Selection - by FL:103:in `updateCursor'
+382:Character Selection - by FL:134:in `block in pbMidScene'
+382:Character Selection - by FL:115:in `loop'
+382:Character Selection - by FL:115:in `pbMidScene'
+382:Character Selection - by FL:271:in `pbStartScreen'
+382:Character Selection - by FL:282:in `block in startCharacterSelection'
+080:MessageConfig:562:in `pbFadeOutIn'
+382:Character Selection - by FL:279:in `startCharacterSelection'
+(eval):1:in `execute_script'
+033:Interpreter:140:in `eval'
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+032:Scene_Map:157:in `block in update'
+032:Scene_Map:155:in `loop'
+032:Scene_Map:155:in `update'
+
+=================
+
+[2022-12-31 07:39:33 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 45 (coords 13,32), map 45 (Empire - castlelize | Palace's Lobby):
+Exception: NoMethodError
+Message: undefined method `+' for nil:NilClass
+
+***Full script:
+startCharacterSelection(
+["ZZZ_LEAF","ZZZ_LEAFIA","","","",""],
+["ZZZ_LEAF","ZZZ_LEAFIA","","","",""]
+) 
+#
+pbChangePlayer(result+1)
+
+
+Backtrace:
+(eval):6:in `execute_script'
+033:Interpreter:140:in `eval'
+033:Interpreter:140:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+032:Scene_Map:157:in `block in update'
+032:Scene_Map:155:in `loop'
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+032:Scene_Map:157:in `block in update'
+032:Scene_Map:155:in `loop'
+032:Scene_Map:155:in `update'
+
+=================
+
+[2022-12-31 07:45:52 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 45 (coords 13,32), map 45 (Empire - castlelize | Palace's Lobby):
+Exception: NoMethodError
+Message: undefined method `width' for nil:NilClass
+
+***Full script:
+startCharacterSelection(
+["ZZZ_LEAF","ZZZ_LEAFIA","","","",""],
+["ZZZ_LEAF","ZZZ_LEAFIA","","","",""]
+) 
+#
+#pbChangePlayer(result+1)
+
+
+Backtrace:
+382:Character Selection - by FL:103:in `updateCursor'
+382:Character Selection - by FL:141:in `block in pbMidScene'
+382:Character Selection - by FL:115:in `loop'
+382:Character Selection - by FL:115:in `pbMidScene'
+382:Character Selection - by FL:271:in `pbStartScreen'
+382:Character Selection - by FL:282:in `block in startCharacterSelection'
+080:MessageConfig:562:in `pbFadeOutIn'
+382:Character Selection - by FL:279:in `startCharacterSelection'
+(eval):1:in `execute_script'
+033:Interpreter:140:in `eval'
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+032:Scene_Map:157:in `block in update'
+032:Scene_Map:155:in `loop'
+032:Scene_Map:155:in `update'
+
+=================
+
+[2022-12-31 09:11:56 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 45 (coords 13,32), map 45 (Empire - castlelize | Palace's Lobby):
+Exception: SyntaxError
+Message: (eval):20: syntax error, unexpected local variable or method, expecting end-of-input
+...overworld,battle)pbChangePlayer(result+6)
+...                 ^~~~~~~~~~~~~~
+
+
+***Full script:
+overworld = [
+  "ZZZ_LEAF",
+  "ZZZ_LEAFIA",
+  "ZZZ_VAPOR",
+  "ZZZ_VAPORIA",
+  "ZZZ_FLARE",
+  "ZZZ_FLARIA"
+]
+  
+battle = [
+  "ZZZ_LEAF",
+  "ZZZ_LEAFIA",
+  "ZZZ_VAPOR",
+  "ZZZ_VAPORIA",
+  "ZZZ_FLARE",
+  "ZZZ_FLARIA"
+]
+  
+result =
+  startCharacterSelection(overworld,battle)pbChangePlayer(result+6)
+
+
+Backtrace:
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+032:Scene_Map:157:in `block in update'
+032:Scene_Map:155:in `loop'
+032:Scene_Map:155:in `update'
+
+=================
+
+[2023-01-01 02:55:10 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 47 (coords 13,32), map 45 (Empire - castlelize | Palace's Lobby):
+Exception: NoMethodError
+Message: undefined method `character_0' for #<Player Crystal Hunter Zeta @party=[:LEAFEON]>
+
+***Full script:
+$Trainer.character_0
+
+Backtrace:
+(eval):1:in `execute_script'
+033:Interpreter:140:in `eval'
+033:Interpreter:140:in `execute_script'
+034:Interpreter_Commands:352:in `command_111'
+034:Interpreter_Commands:29:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+032:Scene_Map:157:in `block in update'
+032:Scene_Map:155:in `loop'
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:352:in `command_111'
+034:Interpreter_Commands:29:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+032:Scene_Map:157:in `block in update'
+032:Scene_Map:155:in `loop'
+032:Scene_Map:155:in `update'
+
+=================
+
+[2023-01-01 03:02:26 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 47 (coords 13,32), map 45 (Empire - castlelize | Palace's Lobby):
+Exception: NoMethodError
+Message: undefined method `character' for #<Player Crystal Hunter Zeta @party=[:LEAFEON]>
+
+***Full script:
+$Trainer.character(0)
+
+Backtrace:
+(eval):1:in `execute_script'
+033:Interpreter:140:in `eval'
+033:Interpreter:140:in `execute_script'
+034:Interpreter_Commands:352:in `command_111'
+034:Interpreter_Commands:29:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+032:Scene_Map:157:in `block in update'
+032:Scene_Map:155:in `loop'
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:352:in `command_111'
+034:Interpreter_Commands:29:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+032:Scene_Map:157:in `block in update'
+032:Scene_Map:155:in `loop'
+032:Scene_Map:155:in `update'
+
+=================
+
+[2023-01-01 03:09:10 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 47 (coords 13,32), map 45 (Empire - castlelize | Palace's Lobby):
+Exception: NameError
+Message: uninitialized constant Interpreter::ZZZ_LEAF
+
+***Full script:
+$Trainer.trainertype(ZZZ_LEAF)
+
+Backtrace:
+(eval):1:in `execute_script'
+033:Interpreter:140:in `eval'
+033:Interpreter:140:in `execute_script'
+034:Interpreter_Commands:352:in `command_111'
+034:Interpreter_Commands:29:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+032:Scene_Map:157:in `block in update'
+032:Scene_Map:155:in `loop'
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:352:in `command_111'
+034:Interpreter_Commands:29:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+032:Scene_Map:157:in `block in update'
+032:Scene_Map:155:in `loop'
+032:Scene_Map:155:in `update'
+
+=================
+
+[2023-01-01 03:13:00 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 47 (coords 13,32), map 45 (Empire - castlelize | Palace's Lobby):
+Exception: NoMethodError
+Message: undefined method `trainertype' for #<Player Crystal Hunter Zeta @party=[:LEAFEON]>
+
+***Full script:
+$Trainer.trainertype(:ZZZ_LEAF)
+
+Backtrace:
+(eval):1:in `execute_script'
+033:Interpreter:140:in `eval'
+033:Interpreter:140:in `execute_script'
+034:Interpreter_Commands:352:in `command_111'
+034:Interpreter_Commands:29:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+032:Scene_Map:157:in `block in update'
+032:Scene_Map:155:in `loop'
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:352:in `command_111'
+034:Interpreter_Commands:29:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+032:Scene_Map:157:in `block in update'
+032:Scene_Map:155:in `loop'
+032:Scene_Map:155:in `update'
+
+=================
+
+[2023-01-01 03:24:24 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 47 (coords 13,32), map 45 (Empire - castlelize | Palace's Lobby):
+Exception: SyntaxError
+Message: (eval):1: syntax error, unexpected end-of-input, expecting `then' or ';' or '\n'
+
+***Full script:
+if $Trainer.character_ID == 0
+
+Backtrace:
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:352:in `command_111'
+034:Interpreter_Commands:29:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+032:Scene_Map:157:in `block in update'
+032:Scene_Map:155:in `loop'
+032:Scene_Map:155:in `update'
+
+=================
+
+[2023-01-01 07:54:09 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RGSSError
+Message: disposed viewport
+
+Backtrace:
+[Modular Menu] Script.rb:188:in `rect'
+[Modular Menu] Script.rb:188:in `pbHideMenu'
+377:Zoom screen by  TechSkylander:39:in `update'
+377:Zoom screen by  TechSkylander:95:in `block in <main>'
+035:Event_Handlers:53:in `block in trigger'
+035:Event_Handlers:48:in `each'
+035:Event_Handlers:48:in `trigger'
+032:Scene_Map:151:in `updateSpritesets'
+032:Scene_Map:165:in `update'
+380:Quicksave by Low:4:in `update'
+
+=================
+
+[2023-01-02 06:47:31 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 1 (coords 18,13), map 19 (Rejuvenation-style choosing system):
+Exception: SyntaxError
+Message: (eval):20: syntax error, unexpected local variable or method, expecting end-of-input
+   pbChangePlayer(result)lt)
+                         ^~
+
+
+***Full script:
+overworld = [
+  "ZZZ_LEAF",
+  "ZZZ_LEAFIA",
+  "ZZZ_VAPOR",
+  "ZZZ_VAPORIA",
+  "ZZZ_FLARE",
+  "ZZZ_FLARIA"
+]
+battle = [
+  "ZZZ_LEAF",
+  "ZZZ_LEAFIA",
+  "ZZZ_VAPOR",
+  "ZZZ_VAPORIA",
+  "ZZZ_FLARE",
+  "ZZZ_FLARIA"
+]
+  
+result =
+   startCharacterSelection(overworld,battle)
+   pbChangePlayer(result)lt)
+
+
+Backtrace:
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+033:Interpreter:100:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+
+=================
+
+[2023-01-02 22:25:24 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NoMethodError
+Message: undefined method `bitmap' for nil:NilClass
+
+Backtrace:
+384:Watch in the Pokegear Menu - by FL:72:in `refresh_date'
+384:Watch in the Pokegear Menu - by FL:52:in `pbUpdate'
+277:UI_Pokegear:82:in `block in pbStartScene'
+080:MessageConfig:656:in `block (2 levels) in pbFadeInAndShow'
+080:MessageConfig:654:in `each'
+080:MessageConfig:654:in `block in pbFadeInAndShow'
+080:MessageConfig:676:in `block in pbDeactivateWindows'
+080:MessageConfig:696:in `pbActivateWindow'
+080:MessageConfig:676:in `pbDeactivateWindows'
+080:MessageConfig:653:in `pbFadeInAndShow'
+
+=================
+
+[2023-01-02 22:28:59 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NoMethodError
+Message: undefined method `bitmap' for nil:NilClass
+
+Backtrace:
+384:Watch in the Pokegear Menu - by FL:72:in `refresh_date'
+384:Watch in the Pokegear Menu - by FL:52:in `pbUpdate'
+277:UI_Pokegear:82:in `block in pbStartScene'
+080:MessageConfig:656:in `block (2 levels) in pbFadeInAndShow'
+080:MessageConfig:654:in `each'
+080:MessageConfig:654:in `block in pbFadeInAndShow'
+080:MessageConfig:676:in `block in pbDeactivateWindows'
+080:MessageConfig:696:in `pbActivateWindow'
+080:MessageConfig:676:in `pbDeactivateWindows'
+080:MessageConfig:653:in `pbFadeInAndShow'
+
+=================
+
+[2023-01-02 22:31:41 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NoMethodError
+Message: undefined method `bitmap' for nil:NilClass
+
+Backtrace:
+384:Watch in the Pokegear Menu - by FL:72:in `refresh_date'
+384:Watch in the Pokegear Menu - by FL:52:in `pbUpdate'
+277:UI_Pokegear:82:in `block in pbStartScene'
+080:MessageConfig:656:in `block (2 levels) in pbFadeInAndShow'
+080:MessageConfig:654:in `each'
+080:MessageConfig:654:in `block in pbFadeInAndShow'
+080:MessageConfig:676:in `block in pbDeactivateWindows'
+080:MessageConfig:696:in `pbActivateWindow'
+080:MessageConfig:676:in `pbDeactivateWindows'
+080:MessageConfig:653:in `pbFadeInAndShow'
+
+=================
+
+[2023-01-02 22:38:05 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NoMethodError
+Message: undefined method `bitmap' for nil:NilClass
+
+Backtrace:
+384:Watch in the Pokegear Menu - by FL:72:in `refresh_date'
+384:Watch in the Pokegear Menu - by FL:52:in `pbUpdate'
+277:UI_Pokegear:82:in `block in pbStartScene'
+080:MessageConfig:656:in `block (2 levels) in pbFadeInAndShow'
+080:MessageConfig:654:in `each'
+080:MessageConfig:654:in `block in pbFadeInAndShow'
+080:MessageConfig:676:in `block in pbDeactivateWindows'
+080:MessageConfig:696:in `pbActivateWindow'
+080:MessageConfig:676:in `pbDeactivateWindows'
+080:MessageConfig:653:in `pbFadeInAndShow'
+
+=================
+
+[2023-01-02 22:39:45 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NoMethodError
+Message: undefined method `bitmap' for nil:NilClass
+
+Backtrace:
+384:Watch in the Pokegear Menu - by FL:73:in `refresh_date'
+384:Watch in the Pokegear Menu - by FL:52:in `pbUpdate'
+277:UI_Pokegear:82:in `block in pbStartScene'
+080:MessageConfig:656:in `block (2 levels) in pbFadeInAndShow'
+080:MessageConfig:654:in `each'
+080:MessageConfig:654:in `block in pbFadeInAndShow'
+080:MessageConfig:676:in `block in pbDeactivateWindows'
+080:MessageConfig:696:in `pbActivateWindow'
+080:MessageConfig:676:in `pbDeactivateWindows'
+080:MessageConfig:653:in `pbFadeInAndShow'
+
+=================
+
+[2023-01-02 23:03:44 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NameError
+Message: undefined local variable or method `initialize_watch' for #<PokemonPokegear_Scene>
+
+Backtrace:
+277:UI_Pokegear:83:in `pbStartScene'
+277:UI_Pokegear:141:in `pbStartScreen'
+[Modular Menu] Config.rb:94:in `block (2 levels) in <main>'
+080:MessageConfig:562:in `pbFadeOutIn'
+[Modular Menu] Config.rb:93:in `block in <main>'
+[Modular Menu] Script.rb:62:in `run'
+[Modular Menu] Script.rb:360:in `block in pbStartPokemonMenu'
+[Modular Menu] Script.rb:343:in `loop'
+[Modular Menu] Script.rb:343:in `pbStartPokemonMenu'
+377:Zoom screen by  TechSkylander:120:in `call_menu'
+
+=================
+
+[2023-01-03 17:20:54 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 2 (coords 26,6), map 99 (Theta Main Room):
+Exception: ArgumentError
+Message: wrong number of arguments (given 2, expected 1)
+
+***Full script:
+pbPokeCenterPC
+
+
+Backtrace:
+287:UI_ItemStorage:72:in `pbStartScene'
+[Bag Screen w/interactable Party] Script.rb:1393:in `pbWithdrawItemScreen'
+288:UI_PC:138:in `block (2 levels) in pbPCItemStorage'
+080:MessageConfig:562:in `pbFadeOutIn'
+288:UI_PC:135:in `block in pbPCItemStorage'
+288:UI_PC:116:in `loop'
+288:UI_PC:116:in `pbPCItemStorage'
+288:UI_PC:224:in `block in pbTrainerPCMenu'
+288:UI_PC:217:in `loop'
+288:UI_PC:217:in `pbTrainerPCMenu'
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+033:Interpreter:100:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+
+=================
+
+[2023-01-03 17:40:31 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 2 (coords 26,6), map 99 (Theta Main Room):
+Exception: ArgumentError
+Message: wrong number of arguments (given 2, expected 1)
+
+***Full script:
+pbPokeCenterPC
+
+
+Backtrace:
+287:UI_ItemStorage:72:in `pbStartScene'
+[Bag Screen w/interactable Party] Script.rb:1393:in `pbWithdrawItemScreen'
+288:UI_PC:138:in `block (2 levels) in pbPCItemStorage'
+080:MessageConfig:562:in `pbFadeOutIn'
+288:UI_PC:135:in `block in pbPCItemStorage'
+288:UI_PC:116:in `loop'
+288:UI_PC:116:in `pbPCItemStorage'
+288:UI_PC:224:in `block in pbTrainerPCMenu'
+288:UI_PC:217:in `loop'
+288:UI_PC:217:in `pbTrainerPCMenu'
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+033:Interpreter:100:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+
+=================
+
+[2023-01-17 17:00:06 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+
+Error in Plugin [Marin's Better Region Map]:
+NameError occurred.
+Uninitialized constant menuhandlers: uninitialized constant MenuHandlers
+
+Backtrace:
+[Marin's Better Region Map] Marin's Better Region Map.rb:515:in `<main>'
+008:PluginManager:705:in `eval'
+008:PluginManager:705:in `block (2 levels) in runPlugins'
+008:PluginManager:695:in `each'
+008:PluginManager:695:in `block in runPlugins'
+008:PluginManager:689:in `each'
+008:PluginManager:689:in `runPlugins'
+384:Main:28:in `mainFunctionDebug'
+384:Main:18:in `block in mainFunction'
+014:Errors:70:in `pbCriticalCode'
+
+=================
+
+[2023-01-19 17:17:21 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: Errno::ENOENT
+Message: File Graphics/Pictures/mapArrowRight not found.
+
+Backtrace:
+[Marin's Scripting Utilities] script.rb:654:in `initialize'
+[Marin's Scripting Utilities] script.rb:654:in `new'
+[Marin's Scripting Utilities] script.rb:654:in `bmp'
+384:BetterRegionMap by Marin:183:in `initialize'
+384:BetterRegionMap by Marin:19:in `new'
+384:BetterRegionMap by Marin:19:in `pbBetterRegionMap'
+384:BetterRegionMap by Marin:485:in `pbShowMap'
+[Voltseon's Pause Menu] 005_VoltseonMenu_Entries.rb:166:in `selected'
+[Voltseon's Pause Menu] 003_VoltseonMenu_Menu.rb:58:in `update'
+[Voltseon's Pause Menu] 002_VoltseonMenu_Main.rb:219:in `block in update'
+
+=================
+
+[2023-01-19 17:42:08 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NoMethodError
+Message: undefined method `find' for nil:NilClass
+
+Backtrace:
+384:BetterRegionMap by Marin:447:in `update_text'
+384:BetterRegionMap by Marin:202:in `initialize'
+384:BetterRegionMap by Marin:19:in `new'
+384:BetterRegionMap by Marin:19:in `pbBetterRegionMap'
+384:BetterRegionMap by Marin:485:in `pbShowMap'
+[Voltseon's Pause Menu] 005_VoltseonMenu_Entries.rb:166:in `selected'
+[Voltseon's Pause Menu] 003_VoltseonMenu_Menu.rb:58:in `update'
+[Voltseon's Pause Menu] 002_VoltseonMenu_Main.rb:219:in `block in update'
+[Voltseon's Pause Menu] 002_VoltseonMenu_Main.rb:215:in `loop'
+[Voltseon's Pause Menu] 002_VoltseonMenu_Main.rb:215:in `update'
+
+=================
+
+[2023-01-19 17:43:46 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NoMethodError
+Message: undefined method `find' for nil:NilClass
+
+Backtrace:
+384:BetterRegionMap by Marin:447:in `update_text'
+384:BetterRegionMap by Marin:202:in `initialize'
+384:BetterRegionMap by Marin:19:in `new'
+384:BetterRegionMap by Marin:19:in `pbBetterRegionMap'
+384:BetterRegionMap by Marin:485:in `pbShowMap'
+277:UI_Pokegear:146:in `block in pbStartScreen'
+277:UI_Pokegear:141:in `loop'
+277:UI_Pokegear:141:in `pbStartScreen'
+[Voltseon's Pause Menu] 005_VoltseonMenu_Entries.rb:96:in `block in selected'
+080:MessageConfig:562:in `pbFadeOutIn'
+
+=================
+
+[2023-02-10 20:15:08 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 33 (coords 30,27), map 27 (Empire - castlelize | Entrance Garden):
+Exception: NoMethodError
+Message: undefined method `pbAdvancedVendingMachine' for #<Interpreter @event_id: 33>
+
+***Full script:
+pbAdvancedVendingMachine("snack",39, 40,[
+:PEWTERCRUNCHIES,
+:RAGECANDYBAR,
+:LAVACOOKIE], 20, true, 1, 10)
+
+
+Backtrace:
+(eval):1:in `execute_script'
+033:Interpreter:140:in `eval'
+033:Interpreter:140:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+032:Scene_Map:157:in `block in update'
+032:Scene_Map:155:in `loop'
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+032:Scene_Map:157:in `block in update'
+032:Scene_Map:155:in `loop'
+032:Scene_Map:155:in `update'
+
+=================
+
+[2023-02-10 20:27:53 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+
+Exception: ArgumentError
+Message: comparison of Symbol with :version failed
+
+Backtrace:
+008:PluginManager:182:in `sort'
+008:PluginManager:182:in `register'
+008:PluginManager:693:in `block in runPlugins'
+008:PluginManager:689:in `each'
+008:PluginManager:689:in `runPlugins'
+385:Main:28:in `mainFunctionDebug'
+385:Main:18:in `block in mainFunction'
+014:Errors:70:in `pbCriticalCode'
+385:Main:18:in `mainFunction'
+385:Main:45:in `block in <main>'
+
+=================
+
+[2023-02-10 20:30:21 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+
+Exception: ArgumentError
+Message: comparison of Symbol with :name failed
+
+Backtrace:
+008:PluginManager:182:in `sort'
+008:PluginManager:182:in `register'
+008:PluginManager:693:in `block in runPlugins'
+008:PluginManager:689:in `each'
+008:PluginManager:689:in `runPlugins'
+385:Main:28:in `mainFunctionDebug'
+385:Main:18:in `block in mainFunction'
+014:Errors:70:in `pbCriticalCode'
+385:Main:18:in `mainFunction'
+385:Main:45:in `block in <main>'
+
+=================
+
+[2023-02-10 20:42:09 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 33 (coords 30,27), map 27 (Empire - castlelize | Entrance Garden):
+Exception: NoMethodError
+Message: undefined method `money' for nil:NilClass
+
+***Full script:
+pbAdvancedVendingMachine("snack",39, 40,[
+:PEWTERCRUNCHIES,
+:RAGECANDYBAR,
+:LAVACOOKIE], 20, true, 1, 10)
+
+
+Backtrace:
+[Advanced HM Items2] Advanced Vending Machine.rb:25:in `pbMenu'
+[Advanced HM Items2] Advanced Vending Machine.rb:11:in `pbAdvancedVendingMachine'
+(eval):1:in `execute_script'
+033:Interpreter:140:in `eval'
+033:Interpreter:140:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+032:Scene_Map:157:in `block in update'
+032:Scene_Map:155:in `loop'
+032:Scene_Map:155:in `update'
+
+=================
+
+[2023-02-10 22:47:44 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+
+Exception: ArgumentError
+Message: comparison of Symbol with :version failed
+
+Backtrace:
+008:PluginManager:182:in `sort'
+008:PluginManager:182:in `register'
+008:PluginManager:693:in `block in runPlugins'
+008:PluginManager:689:in `each'
+008:PluginManager:689:in `runPlugins'
+385:Main:28:in `mainFunctionDebug'
+385:Main:18:in `block in mainFunction'
+014:Errors:70:in `pbCriticalCode'
+385:Main:18:in `mainFunction'
+385:Main:45:in `block in <main>'
+
+=================
+
+[2023-03-05 17:58:11 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+
+Exception: RuntimeError
+Message: Expected a section at the beginning of the file
+File PBS/townmap.txt, line 1
+c# See the documentation on the wiki to learn how to edit this file.
+
+
+
+
+Backtrace:
+370:Compiler_CompilePBS:24:in `block in compile_town_map'
+369:Compiler:200:in `block (2 levels) in pbCompilerEachCommentedLine'
+369:Compiler:193:in `each_line'
+369:Compiler:193:in `block in pbCompilerEachCommentedLine'
+369:Compiler:190:in `open'
+369:Compiler:190:in `pbCompilerEachCommentedLine'
+370:Compiler_CompilePBS:18:in `compile_town_map'
+369:Compiler:688:in `compile_all'
+[Elite Battle: DX] EBDX Compiler.rb:98:in `compile_all'
+369:Compiler:841:in `main'
+
+=================
+
+[2023-03-06 22:30:40 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NoMethodError
+Message: undefined method `find' for nil:NilClass
+
+Backtrace:
+384:BetterRegionMap by Marin:447:in `update_text'
+384:BetterRegionMap by Marin:202:in `initialize'
+384:BetterRegionMap by Marin:19:in `new'
+384:BetterRegionMap by Marin:19:in `pbBetterRegionMap'
+384:BetterRegionMap by Marin:485:in `pbShowMap'
+[Voltseon's Pause Menu] 005_VoltseonMenu_Entries.rb:166:in `selected'
+[Voltseon's Pause Menu] 003_VoltseonMenu_Menu.rb:58:in `update'
+[Voltseon's Pause Menu] 002_VoltseonMenu_Main.rb:219:in `block in update'
+[Voltseon's Pause Menu] 002_VoltseonMenu_Main.rb:215:in `loop'
+[Voltseon's Pause Menu] 002_VoltseonMenu_Main.rb:215:in `update'
+
+=================
+
+[2023-03-23 10:46:32 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NoMethodError
+Message: undefined method `[]' for nil:NilClass
+
+Backtrace:
+047:Game_Player:392:in `pbGetPlayerCharset'
+048:Game_Player_Visuals:72:in `set_movement_type'
+047:Game_Player:408:in `pbUpdateVehicle'
+047:Game_Player:416:in `pbCancelVehicles'
+032:Scene_Map:67:in `transfer_player'
+[Remove Poke Events On Load Save Transfer - Overworld Encounters Add On] 008_add_on_remove_poke_events_on_load_save_transfer.rb:61:in `transfer_player'
+032:Scene_Map:162:in `block in update'
+032:Scene_Map:155:in `loop'
+032:Scene_Map:155:in `update'
+380:Quicksave by Low:4:in `update'
+
+=================
+
+[2023-03-23 10:57:32 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NoMethodError
+Message: undefined method `[]' for nil:NilClass
+
+Backtrace:
+047:Game_Player:392:in `pbGetPlayerCharset'
+048:Game_Player_Visuals:72:in `set_movement_type'
+047:Game_Player:408:in `pbUpdateVehicle'
+047:Game_Player:416:in `pbCancelVehicles'
+032:Scene_Map:67:in `transfer_player'
+[Remove Poke Events On Load Save Transfer - Overworld Encounters Add On] 008_add_on_remove_poke_events_on_load_save_transfer.rb:61:in `transfer_player'
+032:Scene_Map:162:in `block in update'
+032:Scene_Map:155:in `loop'
+032:Scene_Map:155:in `update'
+380:Quicksave by Low:4:in `update'
+
+=================
+
+[2023-03-23 10:59:10 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NoMethodError
+Message: undefined method `[]' for nil:NilClass
+
+Backtrace:
+047:Game_Player:392:in `pbGetPlayerCharset'
+048:Game_Player_Visuals:72:in `set_movement_type'
+047:Game_Player:408:in `pbUpdateVehicle'
+047:Game_Player:416:in `pbCancelVehicles'
+032:Scene_Map:67:in `transfer_player'
+032:Scene_Map:162:in `block in update'
+032:Scene_Map:155:in `loop'
+032:Scene_Map:155:in `update'
+380:Quicksave by Low:4:in `update'
+383:Unreal Time System - by FL:256:in `update'
+
+=================
+
+[2023-03-23 11:13:15 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NoMethodError
+Message: undefined method `[]' for nil:NilClass
+
+Backtrace:
+047:Game_Player:392:in `pbGetPlayerCharset'
+048:Game_Player_Visuals:72:in `set_movement_type'
+047:Game_Player:408:in `pbUpdateVehicle'
+047:Game_Player:416:in `pbCancelVehicles'
+032:Scene_Map:67:in `transfer_player'
+032:Scene_Map:162:in `block in update'
+032:Scene_Map:155:in `loop'
+032:Scene_Map:155:in `update'
+380:Quicksave by Low:4:in `update'
+383:Unreal Time System - by FL:256:in `update'
+
+=================
+
+[2023-03-23 11:14:51 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NoMethodError
+Message: undefined method `[]' for nil:NilClass
+
+Backtrace:
+047:Game_Player:392:in `pbGetPlayerCharset'
+048:Game_Player_Visuals:72:in `set_movement_type'
+047:Game_Player:408:in `pbUpdateVehicle'
+047:Game_Player:416:in `pbCancelVehicles'
+032:Scene_Map:67:in `transfer_player'
+032:Scene_Map:162:in `block in update'
+032:Scene_Map:155:in `loop'
+032:Scene_Map:155:in `update'
+380:Quicksave by Low:4:in `update'
+383:Unreal Time System - by FL:256:in `update'
+
+=================
+
+[2023-03-23 11:16:51 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NoMethodError
+Message: undefined method `[]' for nil:NilClass
+
+Backtrace:
+047:Game_Player:392:in `pbGetPlayerCharset'
+048:Game_Player_Visuals:72:in `set_movement_type'
+047:Game_Player:408:in `pbUpdateVehicle'
+047:Game_Player:416:in `pbCancelVehicles'
+032:Scene_Map:67:in `transfer_player'
+032:Scene_Map:162:in `block in update'
+032:Scene_Map:155:in `loop'
+032:Scene_Map:155:in `update'
+380:Quicksave by Low:4:in `update'
+383:Unreal Time System - by FL:256:in `update'
+
+=================
+
+[2023-03-23 11:21:59 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: ArgumentError
+Message: wrong number of arguments (given 2, expected 0..1)
+
+Backtrace:
+047:Game_Player:413:in `pbCancelVehicles'
+032:Scene_Map:67:in `transfer_player'
+032:Scene_Map:162:in `block in update'
+032:Scene_Map:155:in `loop'
+032:Scene_Map:155:in `update'
+380:Quicksave by Low:4:in `update'
+383:Unreal Time System - by FL:256:in `update'
+032:Scene_Map:220:in `block in main'
+032:Scene_Map:217:in `loop'
+032:Scene_Map:217:in `main'
+
+=================
+
+[2023-03-23 11:26:13 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: ArgumentError
+Message: wrong number of arguments (given 2, expected 0..1)
+
+Backtrace:
+047:Game_Player:413:in `pbCancelVehicles'
+032:Scene_Map:67:in `transfer_player'
+032:Scene_Map:162:in `block in update'
+032:Scene_Map:155:in `loop'
+032:Scene_Map:155:in `update'
+380:Quicksave by Low:4:in `update'
+383:Unreal Time System - by FL:256:in `update'
+032:Scene_Map:220:in `block in main'
+032:Scene_Map:217:in `loop'
+032:Scene_Map:217:in `main'
+
+=================
+
+[2023-03-23 11:28:45 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: ArgumentError
+Message: wrong number of arguments (given 2, expected 0..1)
+
+Backtrace:
+047:Game_Player:413:in `pbCancelVehicles'
+032:Scene_Map:67:in `transfer_player'
+032:Scene_Map:162:in `block in update'
+032:Scene_Map:155:in `loop'
+032:Scene_Map:155:in `update'
+382:Unreal Time System - by FL:256:in `update'
+032:Scene_Map:220:in `block in main'
+032:Scene_Map:217:in `loop'
+032:Scene_Map:217:in `main'
+383:Main:35:in `mainFunctionDebug'
+
+=================
+
+[2023-03-23 11:56:20 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: ArgumentError
+Message: wrong number of arguments (given 2, expected 0..1)
+
+Backtrace:
+047:Game_Player:413:in `pbCancelVehicles'
+032:Scene_Map:67:in `transfer_player'
+032:Scene_Map:162:in `block in update'
+032:Scene_Map:155:in `loop'
+032:Scene_Map:155:in `update'
+382:Unreal Time System - by FL:256:in `update'
+032:Scene_Map:220:in `block in main'
+032:Scene_Map:217:in `loop'
+032:Scene_Map:217:in `main'
+383:Main:35:in `mainFunctionDebug'
+
+=================
+
+[2023-03-23 12:12:14 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: ArgumentError
+Message: wrong number of arguments (given 2, expected 0..1)
+
+Backtrace:
+047:Game_Player:413:in `pbCancelVehicles'
+032:Scene_Map:67:in `transfer_player'
+363:Debug_MenuCommands:65:in `block in <main>'
+363:Debug_MenuCommands:36:in `call'
+362:Debug_Menus:127:in `block in pbDebugMenu'
+362:Debug_Menus:91:in `loop'
+362:Debug_Menus:91:in `pbDebugMenu'
+[Voltseon's Pause Menu] 005_VoltseonMenu_Entries.rb:202:in `block in selected'
+080:MessageConfig:562:in `pbFadeOutIn'
+[Voltseon's Pause Menu] 005_VoltseonMenu_Entries.rb:202:in `selected'
+
+=================
+
+[2023-03-23 13:41:14 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: SystemStackError
+Message: stack level too deep
+
+Backtrace:
+382:Unreal Time System - by FL:237:in `addNewFrameCount'
+382:Unreal Time System - by FL:255:in `update'
+382:Unreal Time System - by FL:256:in `update'
+382:Unreal Time System - by FL:256:in `update'
+382:Unreal Time System - by FL:256:in `update'
+382:Unreal Time System - by FL:256:in `update'
+382:Unreal Time System - by FL:256:in `update'
+382:Unreal Time System - by FL:256:in `update'
+382:Unreal Time System - by FL:256:in `update'
+382:Unreal Time System - by FL:256:in `update'
+
+=================
+
+[2023-03-23 13:44:16 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: ArgumentError
+Message: wrong number of arguments (given 2, expected 0..1)
+
+Backtrace:
+047:Game_Player:413:in `pbCancelVehicles'
+032:Scene_Map:68:in `transfer_player'
+032:Scene_Map:164:in `block in update'
+032:Scene_Map:156:in `loop'
+032:Scene_Map:156:in `update'
+382:Unreal Time System - by FL:256:in `update'
+032:Scene_Map:223:in `block in main'
+032:Scene_Map:219:in `loop'
+032:Scene_Map:219:in `main'
+383:Main:36:in `mainFunctionDebug'
+
+=================
+
+[2023-03-23 14:01:52 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: ArgumentError
+Message: wrong number of arguments (given 2, expected 0..1)
+
+Backtrace:
+047:Game_Player:413:in `pbCancelVehicles'
+032:Scene_Map:67:in `transfer_player'
+032:Scene_Map:164:in `block in update'
+032:Scene_Map:156:in `loop'
+032:Scene_Map:156:in `update'
+382:Unreal Time System - by FL:256:in `update'
+032:Scene_Map:223:in `block in main'
+032:Scene_Map:219:in `loop'
+032:Scene_Map:219:in `main'
+383:Main:36:in `mainFunctionDebug'
+
+=================
+
+[2023-03-23 14:10:07 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NameError
+Message: undefined local variable or method `cancelVehicles' for #<Scene_Map>
+
+Backtrace:
+032:Scene_Map:68:in `transfer_player'
+032:Scene_Map:164:in `block in update'
+032:Scene_Map:156:in `loop'
+032:Scene_Map:156:in `update'
+382:Unreal Time System - by FL:256:in `update'
+032:Scene_Map:223:in `block in main'
+032:Scene_Map:219:in `loop'
+032:Scene_Map:219:in `main'
+383:Main:36:in `mainFunctionDebug'
+383:Main:18:in `block in mainFunction'
+
+=================
+
+[2023-03-23 14:39:07 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 1 (coords 9,8), map 1 (Start):
+Exception: NoMethodError
+Message: undefined method `refresh_charset' for #<Game_Player>
+
+***Full script:
+pbChangePlayer(0)
+pbTrainerName("Zeta")
+
+
+Backtrace:
+265:Player:47:in `character_ID='
+338:Utilities:226:in `pbChangePlayer'
+(eval):1:in `execute_script'
+033:Interpreter:140:in `eval'
+033:Interpreter:140:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+032:Scene_Map:157:in `block in update'
+032:Scene_Map:155:in `loop'
+032:Scene_Map:155:in `update'
+
+=================
+
+[2023-03-23 14:42:31 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 1 (coords 18,13), map 19 (Selection ):
+Exception: NoMethodError
+Message: undefined method `refresh_charset' for #<Game_Player>
+
+***Full script:
+overworld = [
+  "ZZZ_LEAF",
+  "ZZZ_LEAFIA",
+  "ZZZ_VAPOR",
+  "ZZZ_VAPORIA",
+  "ZZZ_FLARE",
+  "ZZZ_FLARIA"
+]
+battle = [
+  "ZZZ_LEAF",
+  "ZZZ_LEAFIA",
+  "ZZZ_VAPOR",
+  "ZZZ_VAPORIA",
+  "ZZZ_FLARE",
+  "ZZZ_FLARIA"
+]
+  
+result =
+   startCharacterSelection(overworld,battle)
+   pbChangePlayer(result)
+
+
+Backtrace:
+265:Player:47:in `character_ID='
+338:Utilities:226:in `pbChangePlayer'
+(eval):20:in `execute_script'
+033:Interpreter:140:in `eval'
+033:Interpreter:140:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+033:Interpreter:100:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+
+=================
+
+[2023-03-23 14:44:05 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: RuntimeError
+Message: Script error in event 1 (coords 9,8), map 1 (Start):
+Exception: NoMethodError
+Message: undefined method `refresh_charset' for #<Game_Player>
+
+***Full script:
+pbChangePlayer(0)
+pbTrainerName("Zeta")
+
+
+Backtrace:
+265:Player:47:in `character_ID='
+338:Utilities:226:in `pbChangePlayer'
+(eval):1:in `execute_script'
+033:Interpreter:140:in `eval'
+033:Interpreter:140:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+
+
+Backtrace:
+033:Interpreter:192:in `rescue in execute_script'
+033:Interpreter:138:in `execute_script'
+034:Interpreter_Commands:1030:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:130:in `block in update'
+033:Interpreter:87:in `loop'
+033:Interpreter:87:in `update'
+032:Scene_Map:157:in `block in update'
+032:Scene_Map:155:in `loop'
+032:Scene_Map:155:in `update'
+
+=================
+
+[2023-03-23 16:35:45 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NameError
+Message: undefined local variable or method `meta' for #<Game_Player>
+
+Backtrace:
+048:Game_Player_Visuals:81:in `update_command'
+045:Game_Character:845:in `update'
+047:Game_Player:312:in `update'
+032:Scene_Map:158:in `block in update'
+032:Scene_Map:155:in `loop'
+032:Scene_Map:155:in `update'
+381:Unreal Time System - by FL:256:in `update'
+382:Quicksave by Low:4:in `update'
+032:Scene_Map:218:in `block in main'
+032:Scene_Map:215:in `loop'
+
+=================
+
+[2023-03-23 16:39:04 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+[EBDX v1.2.6]
+
+Exception: NameError
+Message: undefined local variable or method `meta' for #<Game_Player>
+
+Backtrace:
+048:Game_Player_Visuals:76:in `update_command'
+045:Game_Character:845:in `update'
+047:Game_Player:312:in `update'
+032:Scene_Map:158:in `block in update'
+032:Scene_Map:155:in `loop'
+032:Scene_Map:155:in `update'
+381:Unreal Time System - by FL:256:in `update'
+382:Quicksave by Low:4:in `update'
+032:Scene_Map:218:in `block in main'
+032:Scene_Map:215:in `loop'

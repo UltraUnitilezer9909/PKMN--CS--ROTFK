@@ -1,0 +1,63 @@
+#this is the game characters file, its where character's properties are stored
+
+Character = 
+    Basic: 
+        > Dr. Coppersten = a thetaian delphox, The player's profesor, owner of theta corp, basically like a ninja... sneaky? 
+        > Zeta = a xian zoroark, his a player's 2nd rival, your mom's loyal best friend uwu, his a bit serious, but mostly kind and fluffy (also pees when scared lol)
+            Alan = zeta's artificial duraludon, his heavily-modified, a xian duraludon, always there to help, probably always there too on zeta
+        > Aurura = the Player's mother, a glimsiumiam sylveon, a "8 keepers" trusted asistant, no need to explain this
+            > Player(Leaf, Leafia, Vapor, Vaporia, Flare, Flaria) = no need to explain
+            > Shade = the player's dad, and glimsiumiam umbreon, works at alpha corp, basically a mechanic(sowwe for bad spelling), stupid and cant live without the player's mom, how about oxygen?
+            > black = player's older brother, an umbreon, player's 1st rival
+            > Kate = a espeon, player's older older sister, basically a supporter... or is she?
+                stella = a sylveon, black's uwu partner, probably fun and active, but stupid every nigth
+    8 keepers:
+        > victoria = Pink crystal stone keeper, castlelize empire queen, an crestelian delphox, strick and likes to slap with ramdom reason from outerspace ¯\_(ツ)_/¯
+            Criztina = victoria's first child, shes a crestelian delphox, quite and smart
+            fetrisha = victoria's second child, shes a glimsiumiam delphox, stupid, weird, likes to mess around, very active when deteched sugar
+            Mark = an alolan ninetales, quite, nice, and a bit naughty, stupid when he see victoria... for some reason (also like being slaped)
+                Zero = a shiny delphox, Quite, Kindly, Helpful, Cheerful, Fearlessm, Brave, stupid when he sees girls (but all the enemies are girls?!?!), mark's classmate bully
+        > Ione = Violet crystal stone keeper, a xian meowscarada, xianium empire/xianium-server king, hes smart and a nerd, has a main control over the region... mostly tech 
+            Apparatuz = A xian enternatus, A MOBILE RAILGUN and a mini reactor, always there to help but easily get tempered
+        > Prisma = a glimsiumiam primarina, teal crystal stone keeper, glimulance empire queen, very happy and emotional sensitive, stupid but cute uwu
+            Altas = a decidueye, mainly prisma's all-day friend, basically careful and straigthforward
+        > Russell = a midnigth lycanroc, crimsium empire king, tempered, serious, straigthforward and agressive, probably the scariest of them all
+            Aden = a crimsium arcanine, shitty badass girl and mostly dont retreat, she make thing hot on the battlefield uwu
+        > Andromeda = a galaxian ninetales, deep blue crystal stone keeper, galaxium empire queen, kind, mercyful, careful, probably the nicest girl youll ever met
+            Astrophel = a galaxian zoroark, Andromeda's husband, kind, mercyful, careful, hes nice and he do all the chores for Andromeda uwu
+            Scarlett = a galaxian ninetales, responsible, cute, nice, sweet, sometimes acts like your "mother"
+            Creselia = a galaxian ninetales, cute, sweet, naughty, careful, mean, Andromeda's baby child girl uwu
+        > Sky = a skylias meowscarada, basically one of the most quite girl compared to them, shes mostly shy, but if confortable with, youre(your) ganna see her true positive colors, skyliuz empire queen
+            Albert = sky's husband, basically responsible, and funny, a lucario, sometimes hes the "confort zone" (yes, its a bit sus, but im talking on the other one)
+            Edwin = a skylias meowscarada, loves to make early mechanical tech, hes bit fun, but mostly curious and straigthforward, even its dangerous, a rich friend
+        > Joltia = a jolteon, basically the owner of the alpha corp and alphian empire queen, probably the responsible of them all, she destroys every problem she sees...
+        > Cryan = a lucario, owner of the gamma corp and a Gammanian empire king, basically has a crush on Joltia, hes mostly supportive and smart
+                Alteia/Cris = the player's all-day friend, an eevion, can be a simp or not, cryan's baby boy/girl
+                    > Alteia if the players a guy
+                    > Cris if the player is a girl
+
+    Team Decimate:
+        > Nexus = A zoroark, a main admin of Team Decimate, an absolute pychopath, no emotions, he probably came from garatina itself (i think)
+            Cassy = a zoroark, Nexus's child, cute, shes a cultist and probably use curses to innocent souls and sacrifise them for power, zeta's absolute nigthmare AND YOU KNOW WHAT I MEAN
+        > luna = an absol, sub-admin of team Decimate, shes a pychopath like no other, mean and gives you lots of anxiety, no emotions, shes a blood thirsty serail killer
+        > eclipse = a a darkrai, hes a worst enemy you can face, gives you lots of nigthmare, fear, DaRkNeSs, the only way to beat him is by standing your own fear, no emotions, ganna fuck you up when he have to...
+
+    Legendaries:
+        > Elumiratuz = a astrial rayquaza, it is one of the most powerful Legendaries out there, it uses the crystal stone's power to destroy such things, but kep away by the 8 keepers to remain peace to all the region...
+            Elumiratuzium = Elumiratuz's powerful form, if obtained it has enough power to destroy a galaxy, can distort time and space, AKA: the universe's main treat, but it has astrial time that needed to run out before doing it
+        > Electuz = a astrial groudon, its a gate link for Elumiratuz to charge power, this where the essential energe are made, but it has astrial time that needed to run out before doing it
+        > Elucrafituz = a astrial Kyogre, its where the energy are distrubute to Elumiratuz and charge in, its protect by a time field, once finished... it releases Elumiratuz and turn into a Elumiratuzium
+
+    Names (reserve):
+    > Nina 
+    > Rain 
+    > Star 
+    > Lisa 
+    > Mimi 
+    > liyla
+
+    > Vivi 
+    > Ben
+    > King
+    > Simon
+    > romeo

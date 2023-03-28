@@ -1,0 +1,12 @@
+TO DO:
+---------------------------
+PKMN: Crystal Stone: Rise Of The Fallen Kingdom:
+    (1/)Zeta(MAIN SYSTEM):
+        Crestelia Regoin:
+            Story(MQS) prepare for teal region (crestelia City)
+            Upload the project in Github (Learn first and ignore for a bit)
+            NEW emote (least priority) 
+            Upgrade Ecplice/Mark's overworld sprite (including battle sprite)
+            Make Rina's overworldnd battle sprite
+            Story on Tournament building
+    

@@ -1,0 +1,19 @@
+Name         = Type Match-up UI
+Version      = 1.0.1
+Link         = https://reliccastle.com/resources/667/
+Credits      = ThatWelshOne_
+
+#How to use
+#Bring up the single-type UI using pbTypeMatchUI.
+#The species-specific UI is called using pbSpeciesTypeMatchUI.
+#It's up to you to choose where the player can access these UI. The Pokégear might be a good home for it.
+
+#Controls
+#Press the left/right arrows to move between pages.
+#Press "Use" to bring up a list that you can scroll through to jump between types/species. By default, this would be C/Space/Enter.
+#When you've got the list up, press A or S (or whatever you have bound to page up/down) to jump down or up quickly.
+#Press "Back" to close the UI. By default, this would be X/Esc.
+
+#Please let me know if there are any issues/questions either here or via Discord (ThatWelshOne_#3324). I'm always happy to help where I can.
+
+#As always, thanks for reading!
