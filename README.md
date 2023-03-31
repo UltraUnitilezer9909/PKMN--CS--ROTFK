@@ -4,6 +4,8 @@
 # Story
 Nope, not yet available 
 
+# Features 
+Nah theres to many of them, stay tune!
 
 # Created using: 
  * [RPG maker XP](https://www.rpgmakerweb.com/products/rpg-maker-xp)
