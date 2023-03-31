@@ -1,8 +1,10 @@
 # POKEMON: CRYSTAL STONE: RISE OF THE FALLEN KINGDOM
- Zetanium XYZ (ultra unitilezer 9909)'s Pokemon fan-made game 
+*  PKMN: Crystal Stone - Rise of the fallen kingdom is a fan-made Pokemon game created by Ultra Unitilzer 9909 (Zetanium XYZ) with a size of more than **1.3 of gigabytes**, the player plays as a *Leafeon, Flareon or Vaporeon*, The Story take place on *Crelestia Region* and separated by *8 different factions*
+
 
 # Created using: 
- RPG maker XP
- Pokemon Essentials 
+ * [RPG maker XP](https://www.rpgmakerweb.com/products/rpg-maker-xp)
+ * [Pokemon Essentials](https://github.com/Maruno17/pokemon-essentials)
+
   
   
