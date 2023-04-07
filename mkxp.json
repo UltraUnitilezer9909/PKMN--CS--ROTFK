@@ -33,40 +33,40 @@
     // FPS display toggled via F2
     // (default: disabled)
     //
-    // "printFPS": false,
+     "printFPS": false,
 
 
     // Game window is resizable
     // (default: enabled)
     //
-    // "winResizable": true,
+    "winResizable": false,
 
 
     // Start game in fullscreen (this can
     // always be toggled with Alt-Enter at runtime)
     // (default: disabled)
     //
-    // "fullscreen": false,
+    "fullscreen": false,
 
 
     // Preserve game screen aspect ratio,
     // as opposed to stretch-to-fill
     // (default: enabled)
     //
-    // "fixedAspectRatio": true,
+    "fixedAspectRatio": true,
 
 
     // Apply linear interpolation when game screen
     // is upscaled
     // (default: disabled)
     //
-    // "smoothScaling": false,
+    "smoothScaling": false,
 
 
     // Sync screen redraws to the monitor refresh rate
     // (default: disabled)
     //
-    // "vsync": false,
+    "vsync": false,
 
 
     // Specify the window width on startup. If set to 0,
@@ -90,7 +90,7 @@
     // Override the game window title
     // (default: none)
     //
-    // "windowTitle": "Custom Title",
+    "windowTitle": "Pokemon: Crysal Stone",
 
 
     // Enforce a static frame rate
@@ -317,7 +317,7 @@
     // will keep in its cache.
     // (default: 100)
     //
-    // "JITMaxCache": 100,
+    // "JITMaxCache": 200,
 
     // Determines how many times a function has to be
     // called before it is compiled.

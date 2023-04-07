@@ -36,7 +36,8 @@ CHARACTER = [
         Victoria = \xn[Victoria,d038B8,e8a0e0,,,,,,,normal]\c[5]
         Cryan = \xn[Cryan,48d8d8,a8e0e0,,,,,,,normal]\c[3]
         Cassy = \xn[Cassy,e82010,f8a8b8,,,,,,,normal]\c[2]
-        Eclipe = \xn[Eclipe,e82010,f8a8b8,,,,,,,normal]\c[2]
+        Eclipes = \xn[Eclipe,e82010,f8a8b8,,,,,,,normal]\c[2]
+        Nexus = \xn[Eclipe,0070f8,78b8e8,,,,,,,normal]\c[1]
         Mark = \xn[Mark,e82010,f8a8b8,,,,,,,normal]\c[2]
         Katrina = \xn[Katrina,e82010,f8a8b8,,,,,,,normal]\c[10]
         Alt = \xn[Alt,d038b8,e8a0e0,,,,,,,normal]\c[5]
@@ -50,7 +51,7 @@ DEV = [
         PinkUwU = \xn[PinkUwU (Dev),d038b8,e8a0e0,,,,,,normal]\c[5] #pixel art girl
         FrostNinetales14 = \xn[FrostNinetales14 (Dev),e82010,f8a8b8,,,,,,normal]\c[2] #a guy with ideas (duh)
         GlitchxCity = \xn[GlitchxCity,48d8d8,a8e0e0,,,,,,normal]\c[4] #just my faverite music artist
-        Archy = \xn[Archy(Dev),f89818,f8c898,,,,,,,normal]\c[10]
+        Archy = \xn[Archy(Dev),f89818,f8c898,,,,,,,normal]\c[10 ] #loyal dude
 
 ]
 textcolors = [
