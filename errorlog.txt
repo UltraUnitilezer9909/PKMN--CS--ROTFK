@@ -4311,3 +4311,66 @@ Backtrace:
 382:Quicksave by Low:4:in `update'
 032:Scene_Map:218:in `block in main'
 032:Scene_Map:215:in `loop'
+
+=================
+
+[2023-04-09 15:27:14 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+
+Exception: Errno::ENOENT
+Message: File No such file or directory @ rb_file_s_mtime - Plugins/Variable Spawn To Normal Encounter Proportion During Game - Overworld Encounters Add On/007_add_on_variable_spawn_to_normal_encounter_proportion_during_game.rb not found.
+
+Backtrace:
+008:PluginManager:643:in `mtime'
+008:PluginManager:643:in `block (2 levels) in needCompiling?'
+008:PluginManager:642:in `each'
+008:PluginManager:642:in `block in needCompiling?'
+008:PluginManager:638:in `each'
+008:PluginManager:638:in `needCompiling?'
+008:PluginManager:685:in `runPlugins'
+383:Main:28:in `mainFunctionDebug'
+383:Main:18:in `block in mainFunction'
+014:Errors:70:in `pbCriticalCode'
+
+=================
+
+[2023-04-09 15:27:47 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+
+Exception: Errno::ENOENT
+Message: File No such file or directory @ rb_sysopen - Plugins/Variable Spawn To Normal Encounter Proportion During Game - Overworld Encounters Add On/007_add_on_variable_spawn_to_normal_encounter_proportion_during_game.rb not found.
+
+Backtrace:
+008:PluginManager:664:in `initialize'
+008:PluginManager:664:in `open'
+008:PluginManager:664:in `block (2 levels) in compilePlugins'
+008:PluginManager:663:in `each'
+008:PluginManager:663:in `block in compilePlugins'
+008:PluginManager:656:in `each'
+008:PluginManager:656:in `compilePlugins'
+008:PluginManager:685:in `runPlugins'
+383:Main:28:in `mainFunctionDebug'
+383:Main:18:in `block in mainFunction'
+
+=================
+
+[2023-04-09 15:28:43 +0800]
+[Pokémon Essentials version 19.1]
+[Generation 8 Project v1.1.2]
+
+Exception: Errno::ENOENT
+Message: File No such file or directory @ rb_sysopen - Plugins/Variable Spawn To Normal Encounter Proportion During Game - Overworld Encounters Add On/007_add_on_variable_spawn_to_normal_encounter_proportion_during_game.rb not found.
+
+Backtrace:
+008:PluginManager:664:in `initialize'
+008:PluginManager:664:in `open'
+008:PluginManager:664:in `block (2 levels) in compilePlugins'
+008:PluginManager:663:in `each'
+008:PluginManager:663:in `block in compilePlugins'
+008:PluginManager:656:in `each'
+008:PluginManager:656:in `compilePlugins'
+008:PluginManager:685:in `runPlugins'
+383:Main:28:in `mainFunctionDebug'
+383:Main:18:in `block in mainFunction'
